@@ -20,6 +20,10 @@ namespace Network
         private ValueWrapper<bool> m_is_running;
         private Client m_tcp_client;
         private IPEndPoint m_endpoint;
+        
+        public delegate void LoadNextSceneDelegate();
+
+        private LoadNextSceneDelegate m_load_next_scene_delegate;
 
         public int Id
         {
@@ -27,8 +31,9 @@ namespace Network
             private set;
         }
 
-        public ClientUdp(ValueWrapper<bool> isRunning, int portUDP, Client tcpClient, string _ip, int portTCP)
+        public ClientUdp(ValueWrapper<bool> isRunning, int portUDP, Client tcpClient, string _ip, int portTCP,LoadNextSceneDelegate loadNextSceneDelegate)
         {
+            m_load_next_scene_delegate = loadNextSceneDelegate;
             m_is_running = isRunning;
             m_endpoint = new IPEndPoint(IPAddress.Any, portUDP);
             
@@ -50,7 +55,7 @@ namespace Network
                     return;
                 }
                 
-                for (int i = 0; i < ip_ports.Length; i++)
+                for (int i = 0; i < 3; i++)
                 {
                     string ip = ip_ports[i].Split(':')[0];
                     int port= Convert.ToInt32(ip_ports[i].Split(':')[1]);
@@ -60,6 +65,7 @@ namespace Network
                 }
                 
                 m_receive_thread.Start();
+                m_load_next_scene_delegate();
                 m_endpoint_mutex.ReleaseMutex();
             } );
             

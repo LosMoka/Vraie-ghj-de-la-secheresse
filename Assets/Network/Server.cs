@@ -90,7 +90,6 @@ namespace Network
                 Thread.Sleep(100);
             }
 
-            m_udp_client.Close();
             string str = m_client_ip_address.Aggregate("CC ", (current, clientipAddress) => current + (clientipAddress.Value + "\n"));
             Debug.Log("send str : "+str);
 

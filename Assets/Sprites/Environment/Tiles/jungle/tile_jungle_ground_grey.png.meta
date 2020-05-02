@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: 1ac39ba2ddb5e7540a6caad3ac4fc4c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8196508246302656365
+    second: tile_jungle_ground_grey_0
+  - first:
+      213: -8622265007732646601
+    second: tile_jungle_ground_grey_1
+  - first:
+      213: -8759535625841211946
+    second: tile_jungle_ground_grey_2
+  - first:
+      213: -6002959436335074333
+    second: tile_jungle_ground_grey_3
+  - first:
+      213: -6441021363778961143
+    second: tile_jungle_ground_grey_4
+  - first:
+      213: -3577295881191512037
+    second: tile_jungle_ground_grey_5
+  - first:
+      213: -8055421028839305418
+    second: tile_jungle_ground_grey_6
+  - first:
+      213: -1578267881694019701
+    second: tile_jungle_ground_grey_7
+  - first:
+      213: 5709153407171245883
+    second: tile_jungle_ground_grey_8
+  - first:
+      213: 4458023094561898659
+    second: tile_jungle_ground_grey_9
+  - first:
+      213: 3783118040104220711
+    second: tile_jungle_ground_grey_10
+  - first:
+      213: -1925362213833595144
+    second: tile_jungle_ground_grey_11
+  - first:
+      213: -9010410975480334595
+    second: tile_jungle_ground_grey_12
+  - first:
+      213: 700163800941590537
+    second: tile_jungle_ground_grey_13
+  - first:
+      213: -7576084138647685919
+    second: tile_jungle_ground_grey_0
+  - first:
+      213: -5934675509849819429
+    second: tile_jungle_ground_grey_1
+  - first:
+      213: -564972160083516277
+    second: tile_jungle_ground_grey_2
+  - first:
+      213: -1304062055882461930
+    second: tile_jungle_ground_grey_3
+  - first:
+      213: 8611974818894890197
+    second: tile_jungle_ground_grey_4
+  - first:
+      213: -3301327694303031563
+    second: tile_jungle_ground_grey_5
+  - first:
+      213: 5597754308413096706
+    second: tile_jungle_ground_grey_6
+  - first:
+      213: -766258514326171403
+    second: tile_jungle_ground_grey_7
+  - first:
+      213: 184145286907065976
+    second: tile_jungle_ground_grey_8
+  - first:
+      213: -299536381122764623
+    second: tile_jungle_ground_grey_9
+  - first:
+      213: -3369976804872264868
+    second: tile_jungle_ground_grey_10
+  - first:
+      213: -8334277439668585186
+    second: tile_jungle_ground_grey_11
+  - first:
+      213: -2456025328059110476
+    second: tile_jungle_ground_grey_12
+  - first:
+      213: -7269147330559090898
+    second: tile_jungle_ground_grey_13
+  - first:
+      213: -3509650342343253486
+    second: tile_jungle_ground_grey_14
+  - first:
+      213: -9153917521725400536
+    second: tile_jungle_ground_grey_15
+  - first:
+      213: -9155844456790366495
+    second: tile_jungle_ground_grey_16
+  - first:
+      213: 4156725836891178703
+    second: tile_jungle_ground_grey_17
+  - first:
+      213: 2172980876230872481
+    second: tile_jungle_ground_grey_18
+  - first:
+      213: -2818941513993777956
+    second: tile_jungle_ground_grey_19
+  - first:
+      213: 3331362776091858353
+    second: tile_jungle_ground_grey_20
+  - first:
+      213: -522499838199314712
+    second: tile_jungle_ground_grey_21
+  - first:
+      213: 1028707938143851425
+    second: tile_jungle_ground_grey_22
+  - first:
+      213: -1650160745363640048
+    second: tile_jungle_ground_grey_23
+  - first:
+      213: 9080587761745467182
+    second: tile_jungle_ground_grey_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20300e4a2e73fad40800000000000000
+      internalID: 5597754308413096706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f05877e0f3bd55f0800000000000000
+      internalID: -766258514326171403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876782da9273e8200800000000000000
+      internalID: 184145286907065976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b02fd59f35d7dbf0800000000000000
+      internalID: -299536381122764623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53684c63ff6b31d0800000000000000
+      internalID: -3369976804872264868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d700553d2b65c80800000000000000
+      internalID: -8334277439668585186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc646981028afa930800000000000000
+      internalID: 4156725836891178703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad457f089af72e10800000000000000
+      internalID: 2172980876230872481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc8ccfd0ab11e8d0800000000000000
+      internalID: -2818941513993777956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b51ae66bc06b3e20800000000000000
+      internalID: 3331362776091858353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e64eec5a25bfb8f0800000000000000
+      internalID: -522499838199314712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a350be5b64b64e00800000000000000
+      internalID: 1028707938143851425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0117e468b837919e0800000000000000
+      internalID: -1650160745363640048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_grey_24
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e271992557ab40e70800000000000000
+      internalID: 9080587761745467182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d7e964aa7b58f1840b3fa6048cc7f3fb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

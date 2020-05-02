@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: d9533752fbae0c14c8c954bb5264cb98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3287015544202112973
+    second: tile_jungle_bridge_0
+  - first:
+      213: -8631705986980048054
+    second: tile_jungle_bridge_1
+  - first:
+      213: 3799600177106548842
+    second: tile_jungle_bridge_2
+  - first:
+      213: -4668492553798828112
+    second: tile_jungle_bridge_3
+  - first:
+      213: 2071826453308114396
+    second: tile_jungle_bridge_4
+  - first:
+      213: -5412499936623529956
+    second: tile_jungle_bridge_5
+  - first:
+      213: -9040961742613741969
+    second: tile_jungle_bridge_6
+  - first:
+      213: 7810834346612996183
+    second: tile_jungle_bridge_7
+  - first:
+      213: -3297880641426218272
+    second: tile_jungle_bridge_8
+  - first:
+      213: 3573902652921325865
+    second: tile_jungle_bridge_9
+  - first:
+      213: -4977873038254266995
+    second: tile_jungle_bridge_10
+  - first:
+      213: -620092883038718777
+    second: tile_jungle_bridge_11
+  - first:
+      213: 4773074198374182183
+    second: tile_jungle_bridge_12
+  - first:
+      213: -6211618582855295238
+    second: tile_jungle_bridge_13
+  - first:
+      213: -5394587521085517569
+    second: tile_jungle_bridge_14
+  - first:
+      213: -9057705327863202254
+    second: tile_jungle_bridge_15
+  - first:
+      213: 7314695650422498800
+    second: tile_jungle_bridge_16
+  - first:
+      213: 5551170046416690242
+    second: tile_jungle_bridge_17
+  - first:
+      213: 8145080060259730535
+    second: tile_jungle_bridge_18
+  - first:
+      213: -770534846199947211
+    second: tile_jungle_bridge_19
+  - first:
+      213: -5304723578527296826
+    second: tile_jungle_bridge_20
+  - first:
+      213: -7637729631423463741
+    second: tile_jungle_bridge_21
+  - first:
+      213: -6127113642780848587
+    second: tile_jungle_bridge_22
+  - first:
+      213: -4250307899931180637
+    second: tile_jungle_bridge_23
+  - first:
+      213: 6956239338868230520
+    second: tile_jungle_bridge_24
+  - first:
+      213: 4578498824713139542
+    second: tile_jungle_bridge_25
+  - first:
+      213: 5987768158502234706
+    second: tile_jungle_bridge_26
+  - first:
+      213: -6176333737619551234
+    second: tile_jungle_bridge_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tile_jungle_bridge_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfaa5bd833dd9d20800000000000000
+      internalID: 3287015544202112973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 773dcb7b948036943bc4a47c3be0831f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

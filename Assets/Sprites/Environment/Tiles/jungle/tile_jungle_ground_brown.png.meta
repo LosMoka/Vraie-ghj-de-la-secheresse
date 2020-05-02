@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 6e021daf91a70bb4dacb6e2f55fa95af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5723610709962789280
+    second: tile_jungle_ground_brown_0
+  - first:
+      213: -2255475254817805389
+    second: tile_jungle_ground_brown_1
+  - first:
+      213: 7825128691250573936
+    second: tile_jungle_ground_brown_2
+  - first:
+      213: -8835387689257018311
+    second: tile_jungle_ground_brown_3
+  - first:
+      213: -1910916513693485226
+    second: tile_jungle_ground_brown_4
+  - first:
+      213: 8217640642751667001
+    second: tile_jungle_ground_brown_5
+  - first:
+      213: -6251354408642324488
+    second: tile_jungle_ground_brown_6
+  - first:
+      213: 6351095660502984747
+    second: tile_jungle_ground_brown_7
+  - first:
+      213: 5426897207778364502
+    second: tile_jungle_ground_brown_8
+  - first:
+      213: 5262098393570241595
+    second: tile_jungle_ground_brown_9
+  - first:
+      213: 3007750786411330438
+    second: tile_jungle_ground_brown_10
+  - first:
+      213: 825945696322418904
+    second: tile_jungle_ground_brown_11
+  - first:
+      213: -6349584451827343723
+    second: tile_jungle_ground_brown_12
+  - first:
+      213: -6152866763222371784
+    second: tile_jungle_ground_brown_13
+  - first:
+      213: -411154532717696860
+    second: tile_jungle_ground_brown_14
+  - first:
+      213: -6751352148768674771
+    second: tile_jungle_ground_brown_15
+  - first:
+      213: 8903389295392363499
+    second: tile_jungle_ground_brown_16
+  - first:
+      213: -3046714755006573482
+    second: tile_jungle_ground_brown_17
+  - first:
+      213: 3800693473061922623
+    second: tile_jungle_ground_brown_18
+  - first:
+      213: -2011642612287887837
+    second: tile_jungle_ground_brown_19
+  - first:
+      213: 5144845208676763162
+    second: tile_jungle_ground_brown_20
+  - first:
+      213: 7697049578232067028
+    second: tile_jungle_ground_brown_21
+  - first:
+      213: 8953577977770215996
+    second: tile_jungle_ground_brown_22
+  - first:
+      213: 57390883331221631
+    second: tile_jungle_ground_brown_23
+  - first:
+      213: -168878851013560515
+    second: tile_jungle_ground_brown_24
+  - first:
+      213: 8005421506304911799
+    second: tile_jungle_ground_brown_25
+  - first:
+      213: -1384079441298755865
+    second: tile_jungle_ground_brown_26
+  - first:
+      213: 5989165537083896101
+    second: tile_jungle_ground_brown_27
+  - first:
+      213: 3846108249397302797
+    second: tile_jungle_ground_brown_0
+  - first:
+      213: -6720291106523495982
+    second: tile_jungle_ground_brown_1
+  - first:
+      213: 5237190491405633333
+    second: tile_jungle_ground_brown_2
+  - first:
+      213: -7678899322369505710
+    second: tile_jungle_ground_brown_3
+  - first:
+      213: -5582161286075224984
+    second: tile_jungle_ground_brown_4
+  - first:
+      213: 3747544637149033847
+    second: tile_jungle_ground_brown_5
+  - first:
+      213: -6501731211831947024
+    second: tile_jungle_ground_brown_6
+  - first:
+      213: -5426535135717325886
+    second: tile_jungle_ground_brown_7
+  - first:
+      213: -4544230416358492897
+    second: tile_jungle_ground_brown_8
+  - first:
+      213: 2465850055776707935
+    second: tile_jungle_ground_brown_9
+  - first:
+      213: -2033171843707892848
+    second: tile_jungle_ground_brown_10
+  - first:
+      213: -4401210543028058261
+    second: tile_jungle_ground_brown_11
+  - first:
+      213: -685312803213515298
+    second: tile_jungle_ground_brown_12
+  - first:
+      213: 1278917638304951591
+    second: tile_jungle_ground_brown_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d069605431f106530800000000000000
+      internalID: 3846108249397302797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1437028dabcb2a0800000000000000
+      internalID: -6720291106523495982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537494d010d3ea840800000000000000
+      internalID: 5237190491405633333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2568d2830c11f6590800000000000000
+      internalID: -7678899322369505710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c6c88c2ed2882b0800000000000000
+      internalID: -5582161286075224984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775303dfdf3f10430800000000000000
+      internalID: 3747544637149033847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed56e6ce2a74d76f0800000000000000
+      internalID: -685312803213515298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72de528e0d0afb110800000000000000
+      internalID: 1278917638304951591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8e19181294b4af0800000000000000
+      internalID: -411154532717696860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ca21badf06e42a0800000000000000
+      internalID: -6751352148768674771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be390e854613f8b70800000000000000
+      internalID: 8903389295392363499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a01c19bbf714c70800000000000000
+      internalID: 8953577977770215996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78ad4e44b4ebc000800000000000000
+      internalID: 57390883331221631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_jungle_ground_brown_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37b24b649508adf0800000000000000
+      internalID: -168878851013560515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 04c59cefe1b807f43a43f63ca25ab060
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

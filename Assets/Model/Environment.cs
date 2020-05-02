@@ -31,7 +31,6 @@ namespace Model
             }
 
             m_gold -= mapTrap.Cost;
-            
             MapTrapsLeft.Add(mapTrap);
         }
 

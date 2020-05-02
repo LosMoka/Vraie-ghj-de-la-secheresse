@@ -24,6 +24,8 @@ namespace ModelToView
 
         public ButtonServerView ButtonServerView { get; set; }
 
+        public Model.Environment environmentInstance { get; }
+
         public void Awake()
         {
             DontDestroyOnLoad(this.gameObject); 

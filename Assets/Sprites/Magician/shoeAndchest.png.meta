@@ -1,0 +1,4376 @@
+fileFormatVersion: 2
+guid: b48d17c06f8cd194097bde67114e370e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9138915061762659798
+    second: shoeAndchest_0
+  - first:
+      213: 8982537528730206798
+    second: shoeAndchest_1
+  - first:
+      213: 2206003926248800590
+    second: shoeAndchest_2
+  - first:
+      213: 2513142913460172295
+    second: shoeAndchest_3
+  - first:
+      213: 2921616436576241596
+    second: shoeAndchest_4
+  - first:
+      213: -955998116261223239
+    second: shoeAndchest_5
+  - first:
+      213: 5627913368810648508
+    second: shoeAndchest_6
+  - first:
+      213: -718111698227549188
+    second: shoeAndchest_7
+  - first:
+      213: -3169195125732178484
+    second: shoeAndchest_8
+  - first:
+      213: 8864160227513494257
+    second: shoeAndchest_9
+  - first:
+      213: -3220120503346647370
+    second: shoeAndchest_10
+  - first:
+      213: 4387339756505169080
+    second: shoeAndchest_11
+  - first:
+      213: -783971958130406077
+    second: shoeAndchest_12
+  - first:
+      213: -7761534148889759678
+    second: shoeAndchest_13
+  - first:
+      213: 6230792157601187868
+    second: shoeAndchest_14
+  - first:
+      213: 4174105448285199164
+    second: shoeAndchest_15
+  - first:
+      213: 6887328011242982476
+    second: shoeAndchest_16
+  - first:
+      213: 2699839026846010036
+    second: shoeAndchest_17
+  - first:
+      213: -1868946214413819321
+    second: shoeAndchest_18
+  - first:
+      213: 5862859494037859500
+    second: shoeAndchest_19
+  - first:
+      213: -4356832832491415117
+    second: shoeAndchest_20
+  - first:
+      213: -1547693642610930244
+    second: shoeAndchest_21
+  - first:
+      213: 4395966101632995670
+    second: shoeAndchest_22
+  - first:
+      213: 4620139764784742542
+    second: shoeAndchest_23
+  - first:
+      213: -8394844844910377769
+    second: shoeAndchest_24
+  - first:
+      213: 4676584567502805441
+    second: shoeAndchest_25
+  - first:
+      213: 7866135667717549863
+    second: shoeAndchest_26
+  - first:
+      213: 3961938844676150715
+    second: shoeAndchest_27
+  - first:
+      213: 5549958516914465436
+    second: shoeAndchest_28
+  - first:
+      213: 1084970224675283995
+    second: shoeAndchest_29
+  - first:
+      213: -7456048950528692596
+    second: shoeAndchest_30
+  - first:
+      213: -8671501264637401818
+    second: shoeAndchest_31
+  - first:
+      213: 8779299296601730956
+    second: shoeAndchest_32
+  - first:
+      213: 4489255932658249885
+    second: shoeAndchest_33
+  - first:
+      213: 3981668161442604272
+    second: shoeAndchest_34
+  - first:
+      213: -1242298957266413546
+    second: shoeAndchest_35
+  - first:
+      213: -3380097182472051457
+    second: shoeAndchest_36
+  - first:
+      213: 3013737228644525517
+    second: shoeAndchest_37
+  - first:
+      213: 4629764201246599236
+    second: shoeAndchest_38
+  - first:
+      213: 8650584030087716130
+    second: shoeAndchest_39
+  - first:
+      213: 4192252955110844324
+    second: shoeAndchest_40
+  - first:
+      213: -5308923295598848134
+    second: shoeAndchest_41
+  - first:
+      213: 1888060080937233081
+    second: shoeAndchest_42
+  - first:
+      213: 4409287175481028908
+    second: shoeAndchest_43
+  - first:
+      213: -8303086936942924131
+    second: shoeAndchest_44
+  - first:
+      213: -8946301267841280485
+    second: shoeAndchest_45
+  - first:
+      213: 4734373786801566657
+    second: shoeAndchest_46
+  - first:
+      213: -3474889100350607439
+    second: shoeAndchest_47
+  - first:
+      213: 1783093843149725484
+    second: shoeAndchest_48
+  - first:
+      213: 2979208909934556211
+    second: shoeAndchest_49
+  - first:
+      213: -4815393770399056358
+    second: shoeAndchest_50
+  - first:
+      213: -6786188347035708933
+    second: shoeAndchest_51
+  - first:
+      213: -4630985684205485143
+    second: shoeAndchest_52
+  - first:
+      213: 1336988683143900534
+    second: shoeAndchest_53
+  - first:
+      213: 1068052503344795411
+    second: shoeAndchest_54
+  - first:
+      213: -8234488156053580841
+    second: shoeAndchest_55
+  - first:
+      213: -392747012099386566
+    second: shoeAndchest_56
+  - first:
+      213: 3391602818764265527
+    second: shoeAndchest_57
+  - first:
+      213: -761859967651023700
+    second: shoeAndchest_58
+  - first:
+      213: -888064634466838693
+    second: shoeAndchest_59
+  - first:
+      213: 1715361815124691985
+    second: shoeAndchest_60
+  - first:
+      213: 563234395310254376
+    second: shoeAndchest_61
+  - first:
+      213: -8864145861019936513
+    second: shoeAndchest_62
+  - first:
+      213: -4330536173408259232
+    second: shoeAndchest_63
+  - first:
+      213: -3385032980688831863
+    second: shoeAndchest_64
+  - first:
+      213: 1107001479878983341
+    second: shoeAndchest_65
+  - first:
+      213: 8471838167637826178
+    second: shoeAndchest_66
+  - first:
+      213: 5493975053495365387
+    second: shoeAndchest_67
+  - first:
+      213: 4851819431261851966
+    second: shoeAndchest_68
+  - first:
+      213: 810335637551943801
+    second: shoeAndchest_69
+  - first:
+      213: 4767107357673293917
+    second: shoeAndchest_70
+  - first:
+      213: 6996788211578739773
+    second: shoeAndchest_71
+  - first:
+      213: 8906703336712045319
+    second: shoeAndchest_72
+  - first:
+      213: 3856272891583212747
+    second: shoeAndchest_73
+  - first:
+      213: 6821437621802593081
+    second: shoeAndchest_74
+  - first:
+      213: -894654329941647074
+    second: shoeAndchest_75
+  - first:
+      213: 1538710528217621091
+    second: shoeAndchest_76
+  - first:
+      213: 6698786350720439290
+    second: shoeAndchest_77
+  - first:
+      213: 2384021713759464894
+    second: shoeAndchest_78
+  - first:
+      213: 2615780880617160271
+    second: shoeAndchest_79
+  - first:
+      213: -7773190769771382569
+    second: shoeAndchest_80
+  - first:
+      213: -8890194139369450407
+    second: shoeAndchest_81
+  - first:
+      213: -5224672947781650519
+    second: shoeAndchest_82
+  - first:
+      213: 310224909523117949
+    second: shoeAndchest_83
+  - first:
+      213: -8704291373976670313
+    second: shoeAndchest_84
+  - first:
+      213: -2857492897822214601
+    second: shoeAndchest_85
+  - first:
+      213: -1512925738956671817
+    second: shoeAndchest_86
+  - first:
+      213: 8816233177776296768
+    second: shoeAndchest_87
+  - first:
+      213: -2867777336167485145
+    second: shoeAndchest_88
+  - first:
+      213: 8722382875720688666
+    second: shoeAndchest_89
+  - first:
+      213: -4459319304084997811
+    second: shoeAndchest_90
+  - first:
+      213: -5203929872847962565
+    second: shoeAndchest_91
+  - first:
+      213: 561539869660260908
+    second: shoeAndchest_92
+  - first:
+      213: 5358288431299997627
+    second: shoeAndchest_93
+  - first:
+      213: -9201213026161893946
+    second: shoeAndchest_94
+  - first:
+      213: 4826976875243688424
+    second: shoeAndchest_95
+  - first:
+      213: -3753108260243297375
+    second: shoeAndchest_96
+  - first:
+      213: 156864146853777853
+    second: shoeAndchest_97
+  - first:
+      213: -2645920872997358300
+    second: shoeAndchest_98
+  - first:
+      213: -1497639478220197314
+    second: shoeAndchest_99
+  - first:
+      213: -4892099138635432001
+    second: shoeAndchest_100
+  - first:
+      213: -1080724882703246812
+    second: shoeAndchest_101
+  - first:
+      213: -181443711389026762
+    second: shoeAndchest_102
+  - first:
+      213: -9190981449588484993
+    second: shoeAndchest_103
+  - first:
+      213: 1451492312430515337
+    second: shoeAndchest_104
+  - first:
+      213: -7847751691906485328
+    second: shoeAndchest_105
+  - first:
+      213: -7676700422454376238
+    second: shoeAndchest_106
+  - first:
+      213: 8054480338343423467
+    second: shoeAndchest_107
+  - first:
+      213: -3273357371058479058
+    second: shoeAndchest_108
+  - first:
+      213: 1836058214623783435
+    second: shoeAndchest_109
+  - first:
+      213: 2268629281647461363
+    second: shoeAndchest_110
+  - first:
+      213: -1008545781496758303
+    second: shoeAndchest_111
+  - first:
+      213: 7881902751013825308
+    second: shoeAndchest_112
+  - first:
+      213: 7900729569446865107
+    second: shoeAndchest_113
+  - first:
+      213: 2215355107880137646
+    second: shoeAndchest_114
+  - first:
+      213: 1197179831472342530
+    second: shoeAndchest_115
+  - first:
+      213: 361205529974628644
+    second: shoeAndchest_116
+  - first:
+      213: 7324051791613928042
+    second: shoeAndchest_117
+  - first:
+      213: -2484653935593008542
+    second: shoeAndchest_118
+  - first:
+      213: -557719061192876444
+    second: shoeAndchest_119
+  - first:
+      213: -1320159143139017333
+    second: shoeAndchest_120
+  - first:
+      213: -15834381517536635
+    second: shoeAndchest_121
+  - first:
+      213: 6300245299986394262
+    second: shoeAndchest_122
+  - first:
+      213: 2091229575103020171
+    second: shoeAndchest_123
+  - first:
+      213: 806300921364383114
+    second: shoeAndchest_124
+  - first:
+      213: 1134635093006931097
+    second: shoeAndchest_125
+  - first:
+      213: -902233027182176018
+    second: shoeAndchest_126
+  - first:
+      213: -1742120280362822088
+    second: shoeAndchest_127
+  - first:
+      213: 1768026116096748922
+    second: shoeAndchest_128
+  - first:
+      213: -4458572240311203159
+    second: shoeAndchest_129
+  - first:
+      213: -4628359667882626887
+    second: shoeAndchest_130
+  - first:
+      213: 4056783486894151504
+    second: shoeAndchest_131
+  - first:
+      213: -7256787273554639996
+    second: shoeAndchest_132
+  - first:
+      213: 2744372728653407525
+    second: shoeAndchest_133
+  - first:
+      213: 2808315296467455776
+    second: shoeAndchest_134
+  - first:
+      213: 720301092049667587
+    second: shoeAndchest_135
+  - first:
+      213: -4274730420542289644
+    second: shoeAndchest_136
+  - first:
+      213: 6254616367307006496
+    second: shoeAndchest_137
+  - first:
+      213: -8412341261987467480
+    second: shoeAndchest_138
+  - first:
+      213: -5433240916550687536
+    second: shoeAndchest_139
+  - first:
+      213: 4739588388553575220
+    second: shoeAndchest_140
+  - first:
+      213: -4469517343272222672
+    second: shoeAndchest_141
+  - first:
+      213: -2376343939282953943
+    second: shoeAndchest_142
+  - first:
+      213: 1871093568146916818
+    second: shoeAndchest_143
+  - first:
+      213: -6032691931133777048
+    second: shoeAndchest_144
+  - first:
+      213: -2386267936045478561
+    second: shoeAndchest_145
+  - first:
+      213: 3847031663174434649
+    second: shoeAndchest_146
+  - first:
+      213: -3481295309474081821
+    second: shoeAndchest_147
+  - first:
+      213: 2351258725546811824
+    second: shoeAndchest_148
+  - first:
+      213: 2944090964532735357
+    second: shoeAndchest_149
+  - first:
+      213: -8487838873130995889
+    second: shoeAndchest_150
+  - first:
+      213: -6849907609882757549
+    second: shoeAndchest_151
+  - first:
+      213: 1072400567320096973
+    second: shoeAndchest_152
+  - first:
+      213: -600005790638618838
+    second: shoeAndchest_153
+  - first:
+      213: 6841031957850776381
+    second: shoeAndchest_154
+  - first:
+      213: 1942289118049909738
+    second: shoeAndchest_155
+  - first:
+      213: 5667061638165225362
+    second: shoeAndchest_156
+  - first:
+      213: -5205280199496477812
+    second: shoeAndchest_157
+  - first:
+      213: -6659252648571248253
+    second: shoeAndchest_158
+  - first:
+      213: -6981058187277973658
+    second: shoeAndchest_159
+  - first:
+      213: 3068102889325900197
+    second: shoeAndchest_160
+  - first:
+      213: 9175390043769618336
+    second: shoeAndchest_161
+  - first:
+      213: 5454827655147794537
+    second: shoeAndchest_162
+  - first:
+      213: -7270817205289305884
+    second: shoeAndchest_163
+  - first:
+      213: 4576553124643304877
+    second: shoeAndchest_164
+  - first:
+      213: -6072392128329899385
+    second: shoeAndchest_165
+  - first:
+      213: 7253472457001719782
+    second: shoeAndchest_166
+  - first:
+      213: -2902445871490202616
+    second: shoeAndchest_167
+  - first:
+      213: 1493471103047834739
+    second: shoeAndchest_168
+  - first:
+      213: 5387007349249681039
+    second: shoeAndchest_169
+  - first:
+      213: -3469607489700340345
+    second: shoeAndchest_170
+  - first:
+      213: -7188247125806321113
+    second: shoeAndchest_171
+  - first:
+      213: -8689365942019788291
+    second: shoeAndchest_172
+  - first:
+      213: -3653564544645319653
+    second: shoeAndchest_173
+  - first:
+      213: 9005353234418919867
+    second: shoeAndchest_174
+  - first:
+      213: 4225519021325968834
+    second: shoeAndchest_175
+  - first:
+      213: -4065499546861674324
+    second: shoeAndchest_176
+  - first:
+      213: -7388472673967239456
+    second: shoeAndchest_177
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shoeAndchest_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1282
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a6b2fdb2d0c2180800000000000000
+      internalID: -9138915061762659798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1282
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4244957a4268ac70800000000000000
+      internalID: 8982537528730206798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1282
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e414d2d02ec4d9e10800000000000000
+      internalID: 2206003926248800590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1282
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70675922a2a70e220800000000000000
+      internalID: 2513142913460172295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1282
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7c1107baaab8820800000000000000
+      internalID: 2921616436576241596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1282
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4ae4247cc9bb2f0800000000000000
+      internalID: -955998116261223239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1282
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb371a6146d5a1e40800000000000000
+      internalID: 5627913368810648508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1218
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb28161731c806f0800000000000000
+      internalID: -718111698227549188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1218
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc585d203d1c404d0800000000000000
+      internalID: -3169195125732178484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1218
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa661933c2d30b70800000000000000
+      internalID: 8864160227513494257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1218
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be22109675df43d0800000000000000
+      internalID: -3220120503346647370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1218
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc707f6346f2ec30800000000000000
+      internalID: 4387339756505169080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1218
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d05c168a5ce15f0800000000000000
+      internalID: -783971958130406077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1218
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240bc5f50dd794490800000000000000
+      internalID: -7761534148889759678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1154
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18cb178478387650800000000000000
+      internalID: 6230792157601187868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1154
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bdf043ac66de930800000000000000
+      internalID: 4174105448285199164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1154
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c4cb9e554b49f50800000000000000
+      internalID: 6887328011242982476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1154
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba84e16a41c77520800000000000000
+      internalID: 2699839026846010036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1154
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742ad81f15b2016e0800000000000000
+      internalID: -1868946214413819321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1154
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac2726a5af0d5150800000000000000
+      internalID: 5862859494037859500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1154
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b917915f9b6983c0800000000000000
+      internalID: -4356832832491415117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1090
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd8b0305dc758ae0800000000000000
+      internalID: -1547693642610930244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1090
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6515e7ce0eb910d30800000000000000
+      internalID: 4395966101632995670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1090
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80c6a433a80e1040800000000000000
+      internalID: 4620139764784742542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1090
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4099267158f7b80800000000000000
+      internalID: -8394844844910377769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1090
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c91414f2e096e040800000000000000
+      internalID: 4676584567502805441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1090
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fa55596b02a2d60800000000000000
+      internalID: 7866135667717549863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1090
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb55eb25362abf630800000000000000
+      internalID: 3961938844676150715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1026
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a27debdd9650d40800000000000000
+      internalID: 5549958516914465436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1024
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1465a1cba69e0f00800000000000000
+      internalID: 1084970224675283995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1024
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e20dbbbfac68890800000000000000
+      internalID: -7456048950528692596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_31
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1024
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625efeb1b83a8a780800000000000000
+      internalID: -8671501264637401818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_32
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1024
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f68ce023656d970800000000000000
+      internalID: 8779299296601730956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1024
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90f8e35c7a0d4e30800000000000000
+      internalID: 4489255932658249885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_34
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1024
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4e448d81ab14730800000000000000
+      internalID: 3981668161442604272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1024
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6181c4b2ea772cee0800000000000000
+      internalID: -1242298957266413546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 962
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff46474658b7711d0800000000000000
+      internalID: -3380097182472051457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 962
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52abfba02f2d920800000000000000
+      internalID: 3013737228644525517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 962
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448af11f20a304040800000000000000
+      internalID: 4629764201246599236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 962
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d9b05b75c0d0870800000000000000
+      internalID: 8650584030087716130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 962
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7a6f5e9dfdd2a30800000000000000
+      internalID: 4192252955110844324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 962
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77d80af36ae256b0800000000000000
+      internalID: -5308923295598848134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 962
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baebd6e3acb33a10800000000000000
+      internalID: 1888060080937233081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_43
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 962
+        width: 182
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c217b3f135fe03d30800000000000000
+      internalID: 4409287175481028908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 898
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ea4582c6285cc80800000000000000
+      internalID: -8303086936942924131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_45
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 899
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1691bc756a58d380800000000000000
+      internalID: -8946301267841280485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 899
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c37a3410efd3b140800000000000000
+      internalID: 4734373786801566657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 899
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfa9b326c6b6cfc0800000000000000
+      internalID: -3474889100350607439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 899
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f10223762deb810800000000000000
+      internalID: 1783093843149725484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_49
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 899
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334f35418b6485920800000000000000
+      internalID: 2979208909934556211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_50
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 899
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e3cbdf0e84c2db0800000000000000
+      internalID: -4815393770399056358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_51
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 899
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf19a0437ad92d1a0800000000000000
+      internalID: -6786188347035708933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 834
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a343056e0f6bbfb0800000000000000
+      internalID: -4630985684205485143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 834
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d6287af10fd8210800000000000000
+      internalID: 1336988683143900534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 834
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f455fc71c72de00800000000000000
+      internalID: 1068052503344795411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 834
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3d34776a839bd80800000000000000
+      internalID: -8234488156053580841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 834
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3358316caeac8af0800000000000000
+      internalID: -392747012099386566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 834
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73858af4bc4611f20800000000000000
+      internalID: 3391602818764265527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 834
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4f19b55645d65f0800000000000000
+      internalID: -761859967651023700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 834
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57540d8be5fca3f0800000000000000
+      internalID: -888064634466838693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 771
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cc6c38b703ec710800000000000000
+      internalID: 1715361815124691985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 771
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829efb9c2b201d700800000000000000
+      internalID: 563234395310254376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 770
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff858acbd4a3cf480800000000000000
+      internalID: -8864145861019936513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 769
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06375016b48d6e3c0800000000000000
+      internalID: -4330536173408259232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 770
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a7f015072f501d0800000000000000
+      internalID: -3385032980688831863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 771
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeb4061bfbdc5f00800000000000000
+      internalID: 1107001479878983341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 770
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a16a08de3029570800000000000000
+      internalID: 8471838167637826178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_67
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 769
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fe27ce3358e3c40800000000000000
+      internalID: 5493975053495365387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 770
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3153b21110255340800000000000000
+      internalID: 4851819431261851966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 706
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9709f1118f3ee3b00800000000000000
+      internalID: 810335637551943801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 706
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58844472ea282240800000000000000
+      internalID: 4767107357673293917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 707
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c9acfcec5991160800000000000000
+      internalID: 6996788211578739773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_72
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 707
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7030288be77fa9b70800000000000000
+      internalID: 8906703336712045319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_73
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 706
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc29c373cb348530800000000000000
+      internalID: 3856272891583212747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 706
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b6701206d9aae50800000000000000
+      internalID: 6821437621802593081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_75
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 706
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11201380ac8593f0800000000000000
+      internalID: -894654329941647074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_76
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 706
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362a09ea2199a5510800000000000000
+      internalID: 1538710528217621091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_77
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 706
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af35decb1bed6fc50800000000000000
+      internalID: 6698786350720439290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_78
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 642
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd63791e1fb51120800000000000000
+      internalID: 2384021713759464894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 642
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4eb1771ade1d4420800000000000000
+      internalID: 2615780880617160271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 641
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d87e64dd24102490800000000000000
+      internalID: -7773190769771382569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_81
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 641
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954df92588faf9480800000000000000
+      internalID: -8890194139369450407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 641
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7b1efa2ab3e77b0800000000000000
+      internalID: -5224672947781650519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_83
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 642
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d776a9c59e32e4400800000000000000
+      internalID: 310224909523117949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_84
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 641
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79faf98dc15243780800000000000000
+      internalID: -8704291373976670313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_85
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 641
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736fa1d59552858d0800000000000000
+      internalID: -2857492897822214601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_86
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 641
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b431f56e02010be0800000000000000
+      internalID: -1512925738956671817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 578
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0439e526d5d895a70800000000000000
+      internalID: 8816233177776296768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 578
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72132d6f4bb9338d0800000000000000
+      internalID: -2867777336167485145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 579
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14284623012c0970800000000000000
+      internalID: 8722382875720688666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 579
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49b8fb28b05d12c0800000000000000
+      internalID: -4459319304084997811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_91
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 578
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e7adc2a5de7c7b0800000000000000
+      internalID: -5203929872847962565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 578
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aa15a498dfac700800000000000000
+      internalID: 561539869660260908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 578
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfa8b750f67c5a40800000000000000
+      internalID: 5358288431299997627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 578
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd5ce8b089be4080800000000000000
+      internalID: -9201213026161893946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_95
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 578
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1dce3c4eddcf240800000000000000
+      internalID: 4826976875243688424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 514
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab2d901ce74aebc0800000000000000
+      internalID: -3753108260243297375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 513
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1d6374c1b4d2200800000000000000
+      internalID: 156864146853777853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_98
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 513
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42573351cfcc74bd0800000000000000
+      internalID: -2645920872997358300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 513
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32751354d0573be0800000000000000
+      internalID: -1497639478220197314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 513
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbff3abb0c5cb1cb0800000000000000
+      internalID: -4892099138635432001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 513
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a1c82f17e7001f0800000000000000
+      internalID: -1080724882703246812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_102
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 450
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636bde3e7e16b7df0800000000000000
+      internalID: -181443711389026762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 450
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74d2184113137080800000000000000
+      internalID: -9190981449588484993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 450
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98491ac519cb42410800000000000000
+      internalID: 1451492312430515337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 450
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b371765a6f271390800000000000000
+      internalID: -7847751691906485328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 450
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8048083a1e67590800000000000000
+      internalID: -7676700422454376238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 450
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bede359713347cf60800000000000000
+      internalID: 8054480338343423467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_108
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 386
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20272360d2b292d0800000000000000
+      internalID: -3273357371058479058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_109
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 386
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aa695e73dfa7910800000000000000
+      internalID: 1836058214623783435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_110
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 386
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f385abdf4acb7f10800000000000000
+      internalID: 2268629281647461363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 386
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efba2a84fce002f0800000000000000
+      internalID: -1008545781496758303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_112
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 386
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b6a5cbac4226d60800000000000000
+      internalID: 7881902751013825308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_113
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 386
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d82e4dfea705ad60800000000000000
+      internalID: 7900729569446865107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 322
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3fa80bbb58ebe10800000000000000
+      internalID: 2215355107880137646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_115
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 322
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206cb2bb6bc3d9010800000000000000
+      internalID: 1197179831472342530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_116
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 322
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4216b090482430500800000000000000
+      internalID: 361205529974628644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 322
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6226bbcc4244a560800000000000000
+      internalID: 7324051791613928042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_118
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 322
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262d33be86cb48dd0800000000000000
+      internalID: -2484653935593008542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_119
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 322
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e522108759248f0800000000000000
+      internalID: -557719061192876444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_120
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 258
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8df63af04addade0800000000000000
+      internalID: -1320159143139017333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_121
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 256
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582c862c6beb7cff0800000000000000
+      internalID: -15834381517536635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_122
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c638f58b7fe6750800000000000000
+      internalID: 6300245299986394262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_123
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c7ecff73a850d10800000000000000
+      internalID: 2091229575103020171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_124
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 256
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a858eff7a6e803b00800000000000000
+      internalID: 806300921364383114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 256
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994de540b980fbf00800000000000000
+      internalID: 1134635093006931097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_126
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 256
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee85e2e87df9a73f0800000000000000
+      internalID: -902233027182176018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_127
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 256
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83658fcc5deb2d7e0800000000000000
+      internalID: -1742120280362822088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_128
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 256
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d6f8b926a498810800000000000000
+      internalID: 1768026116096748922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_129
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 256
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa45d28b28ff12c0800000000000000
+      internalID: -4458572240311203159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_130
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 256
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b07c177763c4cfb0800000000000000
+      internalID: -4628359667882626887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_131
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 256
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0571ffa66179c4830800000000000000
+      internalID: 4056783486894151504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_132
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 256
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483433d3c66ba4b90800000000000000
+      internalID: -7256787273554639996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_133
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 194
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525e7a6d478f51620800000000000000
+      internalID: 2744372728653407525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 194
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0d3f02e329f620800000000000000
+      internalID: 2808315296467455776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_135
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 194
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30642f2e6060ff900800000000000000
+      internalID: 720301092049667587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_136
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 194
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419450db45b1da4c0800000000000000
+      internalID: -4274730420542289644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_137
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 194
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022adab927cdcc650800000000000000
+      internalID: 6254616367307006496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_138
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 194
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f20e5513c514b80800000000000000
+      internalID: -8412341261987467480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_139
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 194
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4e0e54c204994b0800000000000000
+      internalID: -5433240916550687536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_140
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 194
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b4d49278666c140800000000000000
+      internalID: 4739588388553575220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_141
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 194
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030cfc428a519f1c0800000000000000
+      internalID: -4469517343272222672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_142
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 194
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92913e217c7850fd0800000000000000
+      internalID: -2376343939282953943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_143
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 194
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d54aeecfa577f910800000000000000
+      internalID: 1871093568146916818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_144
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 194
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86be765b6a2974ca0800000000000000
+      internalID: -6032691931133777048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_145
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 194
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dca1584f542eed0800000000000000
+      internalID: -2386267936045478561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_146
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 130
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f313b4ae6636530800000000000000
+      internalID: 3847031663174434649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 131
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e350985c54ffafc0800000000000000
+      internalID: -3481295309474081821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 131
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b161477a5951a020800000000000000
+      internalID: 2351258725546811824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_149
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 130
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d296f32238bd820800000000000000
+      internalID: 2944090964532735357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_150
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 130
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f6640f383253a80800000000000000
+      internalID: -8487838873130995889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 130
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35671b8325d30f0a0800000000000000
+      internalID: -6849907609882757549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 130
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0ba0852aee1ee00800000000000000
+      internalID: 1072400567320096973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_153
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 130
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27cec199e95ca7f0800000000000000
+      internalID: -600005790638618838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 130
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d336ac0025a30fe50800000000000000
+      internalID: 6841031957850776381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 130
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebb87489a564fa10800000000000000
+      internalID: 1942289118049909738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_156
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 130
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fd417d88275ae40800000000000000
+      internalID: 5667061638165225362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 130
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8353a0cc3123c7b0800000000000000
+      internalID: -5205280199496477812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_158
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 130
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381e4549ff49593a0800000000000000
+      internalID: -6659252648571248253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_159
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667c6fed09c4e1f90800000000000000
+      internalID: -6981058187277973658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 66
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1be948257149a20800000000000000
+      internalID: 3068102889325900197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_161
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 66
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af3b8aa1a8855f70800000000000000
+      internalID: 9175390043769618336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_162
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 66
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960bf08f9d073bb40800000000000000
+      internalID: 5454827655147794537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_163
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 66
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8bee3364ed81b90800000000000000
+      internalID: -7270817205289305884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 66
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5711ab1de238f30800000000000000
+      internalID: 4576553124643304877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 66
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782a40e38878abba0800000000000000
+      internalID: -6072392128329899385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_166
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 66
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7daa3e4c289a460800000000000000
+      internalID: 7253472457001719782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_167
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 66
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80407029bd078b7d0800000000000000
+      internalID: -2902445871490202616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_168
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 66
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c1a733e00e9b410800000000000000
+      internalID: 1493471103047834739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_169
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 66
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86227e74ae72ca40800000000000000
+      internalID: 5387007349249681039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_170
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 66
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d5062fe5a79dfc0800000000000000
+      internalID: -3469607489700340345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_171
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 66
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7227794f2573e3c90800000000000000
+      internalID: -7188247125806321113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_172
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df17886c6bb296780800000000000000
+      internalID: -8689365942019788291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b143470776eeb4dc0800000000000000
+      internalID: -3653564544645319653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_174
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb96476ed0179fc70800000000000000
+      internalID: 9005353234418919867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_175
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c56ac1892f04aa30800000000000000
+      internalID: 4225519021325968834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca06ccab3b17497c0800000000000000
+      internalID: -4065499546861674324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoeAndchest_177
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee8083bf3fd67990800000000000000
+      internalID: -7388472673967239456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9386008a6b18e7049b99e575b17f7636
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

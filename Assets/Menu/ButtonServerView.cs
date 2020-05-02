@@ -61,6 +61,6 @@ public class ButtonServerView : MonoBehaviour
     }
     public string getAutre()
     {
-        return (m_autre);
+        return "";
     }
 }

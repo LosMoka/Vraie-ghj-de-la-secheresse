@@ -153,7 +153,7 @@ public class FavServerView : MonoBehaviour
         string name = m_currentServer.getName(), ip = m_currentServer.getIP(), port = m_currentServer.getPortTCP();
         saveOptions();
         loadOptions();
-        m_currentServer = getServerByInfos(name, ip, port, autre);
+        m_currentServer = getServerByInfos(name, ip, port, "");
         refreshInfos();
         JoinButton.interactable = true;
     }
@@ -161,7 +161,7 @@ public class FavServerView : MonoBehaviour
     {
         if (m_currentServer == null)
             return;
-        gameManager.connectToServer(m_currentServer.getIP(), Convert.ToInt32(m_currentServer.getPortTCP()),Convert.ToInt32(m_currentServer.getPortUDP()));
+        gameManager.connectToServer(m_currentServer.getIP(), Convert.ToInt32(m_currentServer.getPortTCP()),Convert.ToInt32(m_currentServer.getPortUDP()),"PlayerStore");
     }
     public void OnClickHost()
     {

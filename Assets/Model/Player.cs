@@ -10,7 +10,7 @@ namespace Model
         {
             NORMAL, DEADLY
         }
-        public Point2i Position { get; private set; }
+        public Vector3 Position { get; private set; }
         public PlayerPerk.PerkAction State { get; private set; }
         
         private int m_competence_point_left;
@@ -20,7 +20,7 @@ namespace Model
         private DateTime m_shield_broken_datetime;
         private long m_time_before_shield_is_get;
 
-        public Player(Point2i position)
+        public Player(Vector3 position)
         {
             Position = position;
             State = PlayerPerk.PerkAction.NONE;
@@ -68,9 +68,9 @@ namespace Model
             m_competence_point_left += competencePoint;
         }
 
-        public void movePlayer(Vector2i vec)
+        public void movePlayer(Vector3 vec)
         {
-            Position += vec;
+            Position = vec;
         }
 
         public bool canBuyThisPerk(PlayerPerk playerPerk)

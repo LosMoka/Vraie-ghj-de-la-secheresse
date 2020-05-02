@@ -12,8 +12,8 @@ public class FavServerView : MonoBehaviour
 {
     public GameObject EditModeGO, ViewModeGO;
 
-    public Text NameText, IPText, PortText;
-    public InputField NameIF, IPIF, PortIF;
+    public Text NameText, IPText, PortText, AutreText;
+    public InputField NameIF, IPIF, PortIF, AutreIF;
     public GameObject ServerPrefabGO;
     public Transform ContentTransform;
     private List<ButtonServerView> m_serverlist;
@@ -62,6 +62,11 @@ public class FavServerView : MonoBehaviour
                 PortIF.OnPointerClick(new PointerEventData(EventSystem.current));
             }
             else if (PortIF.isFocused)
+            {
+                EventSystem.current.SetSelectedGameObject(AutreIF.gameObject, null);
+                AutreIF.OnPointerClick(new PointerEventData(EventSystem.current));
+            }
+            else if (AutreIF.isFocused)
             {
                 EventSystem.current.SetSelectedGameObject(NameIF.gameObject, null);
                 NameIF.OnPointerClick(new PointerEventData(EventSystem.current));
@@ -148,7 +153,7 @@ public class FavServerView : MonoBehaviour
         string name = m_currentServer.getName(), ip = m_currentServer.getIP(), port = m_currentServer.getPortTCP();
         saveOptions();
         loadOptions();
-        m_currentServer = getServerByInfos(name, ip, port);
+        m_currentServer = getServerByInfos(name, ip, port, "");
         refreshInfos();
         JoinButton.interactable = true;
     }
@@ -156,7 +161,6 @@ public class FavServerView : MonoBehaviour
     {
         if (m_currentServer == null)
             return;
-
         gameManager.connectToServer(m_currentServer.getIP(), Convert.ToInt32(m_currentServer.getPortTCP()),Convert.ToInt32(m_currentServer.getPortUDP()),"PlayerStore");
     }
     public void OnClickHost()
@@ -220,7 +224,7 @@ public class FavServerView : MonoBehaviour
             newServer(infos[0], infos[1], infos[2], infos[3]);
         }
     }
-    private ButtonServerView getServerByInfos(string name, string ip, string port)
+    private ButtonServerView getServerByInfos(string name, string ip, string port, string autre)
     {
         ButtonServerView server = null;
         foreach (ButtonServerView i in m_serverlist)

@@ -20,7 +20,7 @@ public class ButtonServerView : MonoBehaviour
     {
         favServerView.setcurrentServer(GetComponent<ButtonServerView>());
     }
-
+	
     public void updateInfos(string name, string ip, string portTCP, string portUDP)
     {
         m_name = name;
@@ -58,5 +58,9 @@ public class ButtonServerView : MonoBehaviour
     public string getPortUDP()
     {
         return (m_port_udp);
+    }
+    public string getAutre()
+    {
+        return "";
     }
 }

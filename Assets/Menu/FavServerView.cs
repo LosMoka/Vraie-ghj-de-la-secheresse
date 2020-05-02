@@ -9,8 +9,8 @@ public class FavServerView : MonoBehaviour
 {
     public GameObject EditModeGO, ViewModeGO;
 
-    public Text NameText, IPText, PortText;
-    public InputField NameIF, IPIF, PortIF;
+    public Text NameText, IPText, PortText, AutreText;
+    public InputField NameIF, IPIF, PortIF, AutreIF;
     public GameObject ServerPrefabGO;
     public Transform ContentTransform;
     private List<ButtonServerView> m_serverlist;
@@ -52,6 +52,11 @@ public class FavServerView : MonoBehaviour
             }
             else if (PortIF.isFocused)
             {
+                EventSystem.current.SetSelectedGameObject(AutreIF.gameObject, null);
+                AutreIF.OnPointerClick(new PointerEventData(EventSystem.current));
+            }
+            else if (AutreIF.isFocused)
+            {
                 EventSystem.current.SetSelectedGameObject(NameIF.gameObject, null);
                 NameIF.OnPointerClick(new PointerEventData(EventSystem.current));
             }
@@ -70,9 +75,10 @@ public class FavServerView : MonoBehaviour
     {
         if (m_currentServer == null)
             return;
-        NameText.text = m_currentServer.getName();
-        IPText.text = m_currentServer.getIP();
-        PortText.text = m_currentServer.getPort();
+        NameText.text = "Name : " + m_currentServer.getName();
+        IPText.text = "IP : " + m_currentServer.getIP();
+        PortText.text = "Port : " + m_currentServer.getPort();
+        AutreText.text = m_currentServer.getAutre();
     }
 
     public void setcurrentServer(ButtonServerView server)
@@ -83,7 +89,7 @@ public class FavServerView : MonoBehaviour
 
     public void OnClickNew()
     {
-        m_currentServer = newServer("", "", "");
+        m_currentServer = newServer("", "", "", "");
         OnClickEdit();
     }
 
@@ -108,6 +114,7 @@ public class FavServerView : MonoBehaviour
         NameIF.text = m_currentServer.getName();
         IPIF.text = m_currentServer.getIP();
         PortIF.text = m_currentServer.getPort();
+        AutreIF.text = m_currentServer.getAutre();
         EditModeGO.SetActive(m_editMode);
         ViewModeGO.SetActive(!m_editMode);
         EventSystem.current.SetSelectedGameObject(NameIF.gameObject, null);
@@ -119,11 +126,11 @@ public class FavServerView : MonoBehaviour
         m_editMode = false;
         EditModeGO.SetActive(m_editMode);
         ViewModeGO.SetActive(!m_editMode);
-        m_currentServer.updateInfos(NameIF.text, IPIF.text, PortIF.text);
-        string name = m_currentServer.getName(), ip = m_currentServer.getIP(), port = m_currentServer.getPort();
+        m_currentServer.updateInfos(NameIF.text, IPIF.text, PortIF.text, AutreIF.text);
+        string name = m_currentServer.getName(), ip = m_currentServer.getIP(), port = m_currentServer.getPort(), autre=m_currentServer.getAutre();
         saveOptions();
         loadOptions();
-        m_currentServer = getServerByInfos(name, ip, port);
+        m_currentServer = getServerByInfos(name, ip, port, autre);
         refreshInfos();
         JoinButton.interactable = true;
     }
@@ -133,19 +140,18 @@ public class FavServerView : MonoBehaviour
             return;
 
         //tu fais ce que tu veux avec ça
-
-        Debug.Log(m_currentServer.getName());
+        
         Debug.Log(m_currentServer.getIP());
         Debug.Log(m_currentServer.getPort());
     }
 
-    private ButtonServerView newServer(string name, string ip, string port)
+    private ButtonServerView newServer(string name, string ip, string port, string autre)
     {
         GameObject newServerGO = Instantiate(ServerPrefabGO, ContentTransform.transform, true);
         newServerGO.SetActive(true);
         ButtonServerView newServerScript = newServerGO.GetComponent<ButtonServerView>();
         m_serverlist.Add(newServerScript);
-        newServerScript.updateInfos(name, ip, port);
+        newServerScript.updateInfos(name, ip, port, autre);
         return (newServerScript);
     }
 
@@ -173,7 +179,9 @@ public class FavServerView : MonoBehaviour
                 + sep
                 + i.getIP()
                 + sep
-                + i.getPort());
+                + i.getPort()
+                + sep
+                + i.getAutre());
             first = false;
         }
         writer.Close();
@@ -188,15 +196,15 @@ public class FavServerView : MonoBehaviour
         foreach (string i in Serv)
         {
             string[] infos = i.Split(sep);
-            newServer(infos[0], infos[1], infos[2]);
+            newServer(infos[0], infos[1], infos[2], infos[3]);
         }
     }
-    private ButtonServerView getServerByInfos(string name, string ip, string port)
+    private ButtonServerView getServerByInfos(string name, string ip, string port, string autre)
     {
         ButtonServerView server = null;
         foreach (ButtonServerView i in m_serverlist)
         {
-            if (i.getName() == name && i.getIP()==ip && i.getPort()==port)
+            if (i.getName() == name && i.getIP()==ip && i.getPort()==port && i.getAutre()==autre)
             {
                 server = i;
             }

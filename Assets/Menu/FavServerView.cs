@@ -225,6 +225,15 @@ public class FavServerView : MonoBehaviour
         foreach (string i in Serv)
         {
             string[] infos = i.Split(sep);
+            try
+            {
+                int j1 = Convert.ToInt32(infos[2]);
+                int j2 = Convert.ToInt32(infos[3]);
+            }
+            catch (Exception )
+            {
+                continue;
+            }
             newServer(infos[0], infos[1], infos[2], infos[3]);
         }
     }

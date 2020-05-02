@@ -16,6 +16,7 @@ namespace ModelToView
         private Server m_server;
         private ClientUdp m_client_udp;
         private ValueWrapper<bool> m_is_running;
+        private MapManager m_map_manager;
 
         private delegate void ExecOnMainThreadDelegate();
 

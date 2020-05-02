@@ -77,5 +77,12 @@ namespace ModelToView
                 return m_id_to_map_element_game_object[mapElement.Id];
             return null;
         }
+
+        public GameObject getMapTrapViewPrefab(MapTrap mapTrap)
+        {
+            if (m_id_to_map_trap_game_object.ContainsKey(mapTrap.Id))
+                return m_id_to_map_trap_game_object[mapTrap.Id];
+            return null;
+        }
     }
 }

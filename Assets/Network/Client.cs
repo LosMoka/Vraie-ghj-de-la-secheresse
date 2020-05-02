@@ -29,7 +29,7 @@ namespace Network
         private Dictionary<string, List<NetworkMessageHandler> > m_network_message_handlers;
         private Mutex m_sending_queue_mutex,m_tcp_client_mutex;
         private string m_ip;
-        private int m_port;
+        private int m_port_tcp;
         private Queue<string> m_sending_queue;
         private FileStream m_read_file_stream, m_send_file_stream;
         private string m_log_dir_path;
@@ -48,12 +48,12 @@ namespace Network
         }
 
 
-        public Client(ValueWrapper<bool> isRunning, string ip, int port)
+        public Client(ValueWrapper<bool> isRunning, string ip, int portTCP, int portUDP)
         {
             m_read_tcp_thread = new Thread(() => read_thread(isRunning, this));
             m_network_message_handlers = new Dictionary<string, List<NetworkMessageHandler>>();
             m_ip = ip;
-            m_port = port;
+            m_port_tcp = portTCP;
             m_sending_queue = new Queue<string>();
             m_sending_queue_mutex = new Mutex();
             m_tcp_client_mutex = new Mutex();
@@ -92,7 +92,7 @@ namespace Network
                         m_send_file_stream.Write(b, 0, b.Length);
                         m_send_file_stream.Close();
                     }
-                    catch (IOException e)
+                    catch (IOException )
                     {
 
                     }
@@ -121,7 +121,7 @@ namespace Network
                     {
                         m_all_data_recieve_mutex.ReleaseMutex();
                     }
-                    catch (ApplicationException e)
+                    catch (ApplicationException )
                     {
                         //TODO : trouver pourquoi ça fait ça
                     }
@@ -137,7 +137,7 @@ namespace Network
                         m_read_file_stream.Write(b, 0, b.Length);
                         m_read_file_stream.Close();
                     }
-                    catch (IOException e)
+                    catch (IOException )
                     {
 
                     }
@@ -179,7 +179,7 @@ namespace Network
                 {
                     m_all_data_recieve_mutex.ReleaseMutex();
                 }
-                catch (Exception e) //Oula pas beau
+                catch (Exception ) //Oula pas beau
                 {
                 }
 
@@ -189,8 +189,8 @@ namespace Network
 
         public void connect()
         {
-            m_tcp_client = new TcpClient(m_ip,m_port);
-            m_udp_client = new UdpClient(m_ip, m_port);
+            m_tcp_client = new TcpClient(m_ip,m_port_tcp);
+            m_udp_client = new UdpClient(m_ip, m_port_tcp);
             m_read_tcp_thread.Start();
             m_send_tcp_thread.Start();
         }
@@ -246,27 +246,7 @@ namespace Network
 
         private string uncompress(byte[] data)
         {
-            try
-            {
-                MemoryStream msi = new MemoryStream(data);
-                MemoryStream mso = new MemoryStream();
-                GZipStream decompressionStream = new GZipStream(msi, CompressionMode.Decompress);
-                int cnt;
-                byte[] bytes = new byte[4096];
-                while ((cnt = decompressionStream.Read(bytes, 0, bytes.Length)) != 0)
-                {
-                    mso.Write(bytes, 0, cnt);
-                }
-
-                return Encoding.UTF8.GetString(mso.ToArray());
-            }
-            catch (IOException e)
-            {
-                Debug.Log(e.Message);
-                Debug.Log(e.Source);
-            }
-
-            return "";
+            return Encoding.UTF8.GetString(data);
         }
 
         public void send(string str, Point2i p1, Point2i p2) {

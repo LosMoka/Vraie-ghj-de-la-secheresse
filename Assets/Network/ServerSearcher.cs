@@ -47,7 +47,7 @@ namespace Network
                     m_server_is_up_state[ip + ":" + port] = true;
                     m_server_is_up_mutex.ReleaseMutex();
                 }
-                catch(Exception e)
+                catch(Exception )
                 {
                     
                 }
@@ -56,7 +56,7 @@ namespace Network
                 {
                     m_server_is_up_mutex.ReleaseMutex();
                 }
-                catch(Exception e)
+                catch(Exception )
                 {
                     
                 }

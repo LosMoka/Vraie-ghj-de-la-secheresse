@@ -12,6 +12,8 @@ namespace Model
         public Environment(int gold)
         {
             m_gold = gold;
+            m_map_elements = new List<MapElement>();
+            m_map_traps_left = new List<MapTrap>();
         }
         
         public bool canBuyThisTrap(MapTrap mapTrap)

@@ -102,6 +102,7 @@ public class FavServerView : MonoBehaviour
         NameText.text = m_currentServer.getName();
         IPText.text = m_currentServer.getIP();
         PortText.text = m_currentServer.getPortTCP();
+        AutreText.text = m_currentServer.getPortUDP();
     }
 
     public void setcurrentServer(ButtonServerView server)
@@ -138,6 +139,7 @@ public class FavServerView : MonoBehaviour
         NameIF.text = m_currentServer.getName();
         IPIF.text = m_currentServer.getIP();
         PortIF.text = m_currentServer.getPortTCP();
+        AutreIF.text = m_currentServer.getPortUDP();
         EditModeGO.SetActive(m_editMode);
         ViewModeGO.SetActive(!m_editMode);
         EventSystem.current.SetSelectedGameObject(NameIF.gameObject, null);
@@ -149,8 +151,8 @@ public class FavServerView : MonoBehaviour
         m_editMode = false;
         EditModeGO.SetActive(m_editMode);
         ViewModeGO.SetActive(!m_editMode);
-        m_currentServer.updateInfos(NameIF.text, IPIF.text, PortIF.text,"");
-        string name = m_currentServer.getName(), ip = m_currentServer.getIP(), port = m_currentServer.getPortTCP();
+        m_currentServer.updateInfos(NameIF.text, IPIF.text, PortIF.text,AutreIF.text);
+        string name = m_currentServer.getName(), ip = m_currentServer.getIP(), port = m_currentServer.getPortTCP(), autre = m_currentServer.getPortUDP();
         saveOptions();
         loadOptions();
         m_currentServer = getServerByInfos(name, ip, port, "");
@@ -206,7 +208,9 @@ public class FavServerView : MonoBehaviour
                 + sep
                 + i.getIP()
                 + sep
-                + i.getPortTCP());
+                + i.getPortTCP()
+                +sep
+                + i.getPortUDP());
             first = false;
         }
         writer.Close();
@@ -221,6 +225,15 @@ public class FavServerView : MonoBehaviour
         foreach (string i in Serv)
         {
             string[] infos = i.Split(sep);
+            try
+            {
+                int j1 = Convert.ToInt32(infos[2]);
+                int j2 = Convert.ToInt32(infos[3]);
+            }
+            catch (Exception )
+            {
+                continue;
+            }
             newServer(infos[0], infos[1], infos[2], infos[3]);
         }
     }
@@ -229,7 +242,7 @@ public class FavServerView : MonoBehaviour
         ButtonServerView server = null;
         foreach (ButtonServerView i in m_serverlist)
         {
-            if (i.getName() == name && i.getIP()==ip && i.getPortTCP()==port)
+            if (i.getName() == name && i.getIP()==ip && i.getPortTCP()==port && i.getPortUDP()==autre)
             {
                 server = i;
             }

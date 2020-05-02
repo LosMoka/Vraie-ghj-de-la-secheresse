@@ -59,8 +59,4 @@ public class ButtonServerView : MonoBehaviour
     {
         return (m_port_udp);
     }
-    public string getAutre()
-    {
-        return "";
-    }
 }

@@ -26,6 +26,7 @@ namespace Model
             State = PlayerPerk.PerkAction.NONE;
             HaveShield = true;
             Alive = true;
+            m_time_before_shield_is_get = 20; //TODO : mettre la bonne valeur
         }
 
         public void hit(HitType hitType)

@@ -18,37 +18,57 @@ namespace Network
         private Dictionary<string, bool> m_endpoint_to_data_pending;
         private Thread m_receive_thread;
         private ValueWrapper<bool> m_is_running;
+        private Client m_tcp_client;
+        private IPEndPoint m_endpoint;
 
-        public ClientUdp(ValueWrapper<bool> isRunning, int port, Client tcpClient)
+        public int Id
         {
-            isRunning = m_is_running;
-            IPEndPoint ipep = new IPEndPoint(IPAddress.Any, port);
-            m_client = new UdpClient(ipep);
+            get;
+            private set;
+        }
+
+        public ClientUdp(ValueWrapper<bool> isRunning, int portUDP, Client tcpClient, string _ip, int portTCP)
+        {
+            m_is_running = isRunning;
+            m_endpoint = new IPEndPoint(IPAddress.Any, portUDP);
+            
+            m_client = new UdpClient(m_endpoint);
+
             m_players_endpoint = new List<IPEndPoint>();
             m_endpoint_mutex = new Mutex();
+            m_endpoint_to_data = new Dictionary<string, string>();
+            m_endpoint_to_data_pending = new Dictionary<string, bool>();
+            m_tcp_client = tcpClient;
             
             tcpClient.addNetworkMessageHandler("CC", data =>
             {
                 m_endpoint_mutex.WaitOne();
-                string[] ips = data.Split('\n');
-                if (ips.Length < 3)
+                string[] ip_ports = data.Split('\n');
+                if (ip_ports.Length < 3)
                 {
                     Debug.LogError("On a pas 3 clients, c'est pas normal");
                     return;
                 }
                 
-                for (int i = 0; i < ips.Length; i++)
+                for (int i = 0; i < ip_ports.Length; i++)
                 {
-                    m_endpoint_to_data[ips[i]] = "";
-                    m_endpoint_to_data_pending[ips[i]] = false;
-                    m_players_endpoint.Add(new IPEndPoint(IPAddress.Parse(ips[i]), port));
+                    string ip = ip_ports[i].Split(':')[0];
+                    int port= Convert.ToInt32(ip_ports[i].Split(':')[1]);
+                    m_endpoint_to_data[ip_ports[i]] = "";
+                    m_endpoint_to_data_pending[ip_ports[i]] = false;
+                    m_players_endpoint.Add(new IPEndPoint(IPAddress.Parse(ip),port));
                 }
                 
                 m_receive_thread.Start();
                 m_endpoint_mutex.ReleaseMutex();
             } );
             
-            
+            tcpClient.addNetworkMessageHandler("GIP", data =>
+            {
+                byte[] buffer = Encoding.UTF8.GetBytes(data);
+                Id = Convert.ToInt32(data);
+                m_client.Send(buffer, buffer.Length, new IPEndPoint(IPAddress.Parse(_ip),portTCP));
+            });
             m_receive_thread = new Thread(receive);
             
         }
@@ -69,14 +89,14 @@ namespace Network
                 IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);
                 byte[] data = m_client.Receive(ref sender);
                 string str = Encoding.UTF8.GetString(data);
-                string ip = sender.Address.ToString();
+                string port = sender.Port+"";
 
                 m_endpoint_mutex.WaitOne();
-                if (!m_endpoint_to_data.ContainsKey(ip))
+                if (!m_endpoint_to_data.ContainsKey(port))
                     continue;
 
-                m_endpoint_to_data[ip] = str;
-                m_endpoint_to_data_pending[ip] = true;
+                m_endpoint_to_data[port] = str;
+                m_endpoint_to_data_pending[port] = true;
                 m_endpoint_mutex.ReleaseMutex();
             }
         }

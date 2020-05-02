@@ -8,7 +8,7 @@ public class ButtonServerView : MonoBehaviour
     public Text ServerNameText;
     public Image voyantImage;
     public FavServerView favServerView;
-    private string m_name, m_ip, m_port;
+    private string m_name, m_ip, m_port_tcp,m_port_udp;
     private bool m_isUp;
 
     private void Start()
@@ -21,12 +21,13 @@ public class ButtonServerView : MonoBehaviour
         favServerView.setcurrentServer(GetComponent<ButtonServerView>());
     }
 
-    public void updateInfos(string name, string ip, string port)
+    public void updateInfos(string name, string ip, string portTCP, string portUDP)
     {
         m_name = name;
         ServerNameText.text = m_name;
         m_ip = ip;
-        m_port = port;
+        m_port_tcp = portTCP;
+        m_port_udp = portUDP;
     }
 
     public void setUp(bool isUp)
@@ -50,8 +51,12 @@ public class ButtonServerView : MonoBehaviour
     {
         return (m_ip);
     }
-    public string getPort()
+    public string getPortTCP()
     {
-        return (m_port);
+        return (m_port_tcp);
+    }
+    public string getPortUDP()
+    {
+        return (m_port_udp);
     }
 }

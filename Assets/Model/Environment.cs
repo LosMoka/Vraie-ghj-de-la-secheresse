@@ -6,14 +6,14 @@ namespace Model
     public class Environment
     {
         private int m_gold;
-        private List<MapTrap> m_map_traps_left;
-        private List<MapElement> m_map_elements;
+        public List<MapTrap> MapTrapsLeft { get; }
+        public List<MapElement> MapElements { get; }
 
         public Environment(int gold)
         {
             m_gold = gold;
-            m_map_elements = new List<MapElement>();
-            m_map_traps_left = new List<MapTrap>();
+            MapElements = new List<MapElement>();
+            MapTrapsLeft = new List<MapTrap>();
         }
         
         public bool canBuyThisTrap(MapTrap mapTrap)
@@ -31,13 +31,12 @@ namespace Model
             }
 
             m_gold -= mapTrap.Cost;
-            
-            m_map_traps_left.Add(mapTrap);
+            MapTrapsLeft.Add(mapTrap);
         }
 
         public bool canBuyThisElement(MapElement mapElement)
         {
-            foreach (var element in m_map_elements)
+            foreach (var element in MapElements)
             {
                 if (element.Id == mapElement.Id)
                     return false;
@@ -57,7 +56,13 @@ namespace Model
             
             m_gold -= mapElement.Cost;
             
-            m_map_elements.Add(mapElement);
+            MapElements.Add(mapElement);
+        }
+
+        public void devOnlyAddMapElement(MapElement mapElement)
+        {
+            //TODO : remove cette fontion
+            MapElements.Add(mapElement);
         }
     }
 }

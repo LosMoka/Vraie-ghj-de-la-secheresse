@@ -26,6 +26,7 @@ namespace ModelToView
         public ButtonServerView ButtonServerView { get; set; }
 
         public Model.Environment environmentInstance { get; }
+        public MapManager MapManager { get; }
 
         public void Awake()
         {

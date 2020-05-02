@@ -20,27 +20,20 @@ namespace Model
         {
             TRAP,ELEMENT
         }
-        
-        public bool buyEnvironmentPerk(EnvironmentPerkClass perkClass, int index)
+
+        public bool buyEnvironmentPerk(MapTrap mapTrap)
         {
-            switch (perkClass)
-            {
-                case EnvironmentPerkClass.TRAP:
-                    if (!m_environment.canBuyThisTrap(m_map_traps[index])) 
-                        return false;
-                    m_environment.buyThisTrap(m_map_traps[index]);
-                    break;
-                case EnvironmentPerkClass.ELEMENT:
-                    if (!m_environment.canBuyThisElement(m_map_elements[index])) 
-                        return false;
-                    m_environment.buyThisElementperk(m_map_elements[index]);
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(perkClass), perkClass, null);
-            }
-
+            if (!m_environment.canBuyThisTrap(mapTrap))
+                return false;
+            m_environment.buyThisTrap(mapTrap);
             return true;
-
+        }
+        public bool buyEnvironmentPerk(MapElement mapElement)
+        {
+            if (!m_environment.canBuyThisElement(mapElement)) 
+                return false;
+            m_environment.buyThisElementperk(mapElement);
+            return true;
         }
     }
 }

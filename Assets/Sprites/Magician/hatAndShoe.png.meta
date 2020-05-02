@@ -1,0 +1,4376 @@
+fileFormatVersion: 2
+guid: 95e7a79e9702ff94ebbdbc31444c5fb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8500061518472056753
+    second: hatAndShoe_0
+  - first:
+      213: 6974623955941942921
+    second: hatAndShoe_1
+  - first:
+      213: 4439511040155727234
+    second: hatAndShoe_2
+  - first:
+      213: -1544356418611427406
+    second: hatAndShoe_3
+  - first:
+      213: 8164854629780369086
+    second: hatAndShoe_4
+  - first:
+      213: -3723592036592338361
+    second: hatAndShoe_5
+  - first:
+      213: 4512011183571487419
+    second: hatAndShoe_6
+  - first:
+      213: 4211662333718045044
+    second: hatAndShoe_7
+  - first:
+      213: 6167086560397960671
+    second: hatAndShoe_8
+  - first:
+      213: -3402171485599548149
+    second: hatAndShoe_9
+  - first:
+      213: 6787057539675474496
+    second: hatAndShoe_10
+  - first:
+      213: 8472439012500116950
+    second: hatAndShoe_11
+  - first:
+      213: -6857447057457130489
+    second: hatAndShoe_12
+  - first:
+      213: -4912044460570103163
+    second: hatAndShoe_13
+  - first:
+      213: 4784908019485285702
+    second: hatAndShoe_14
+  - first:
+      213: -2886626771289857943
+    second: hatAndShoe_15
+  - first:
+      213: -3472804961773669222
+    second: hatAndShoe_16
+  - first:
+      213: -1084409447268457612
+    second: hatAndShoe_17
+  - first:
+      213: 3768313614948457084
+    second: hatAndShoe_18
+  - first:
+      213: -6327270126166210772
+    second: hatAndShoe_19
+  - first:
+      213: 1543908315351936093
+    second: hatAndShoe_20
+  - first:
+      213: -6684152495957253710
+    second: hatAndShoe_21
+  - first:
+      213: 6904685401745703579
+    second: hatAndShoe_22
+  - first:
+      213: 3793053204871593318
+    second: hatAndShoe_23
+  - first:
+      213: -3717967923068085455
+    second: hatAndShoe_24
+  - first:
+      213: -6606433860857183836
+    second: hatAndShoe_25
+  - first:
+      213: -8184870681598840528
+    second: hatAndShoe_26
+  - first:
+      213: 6201145316943240096
+    second: hatAndShoe_27
+  - first:
+      213: -4022426538001610737
+    second: hatAndShoe_28
+  - first:
+      213: -3034373697996669097
+    second: hatAndShoe_29
+  - first:
+      213: 5070050529996507620
+    second: hatAndShoe_30
+  - first:
+      213: 6505531358171772114
+    second: hatAndShoe_31
+  - first:
+      213: 3557426242051768595
+    second: hatAndShoe_32
+  - first:
+      213: -4046291165762649268
+    second: hatAndShoe_33
+  - first:
+      213: 7537506387854166501
+    second: hatAndShoe_34
+  - first:
+      213: -177709696855907873
+    second: hatAndShoe_35
+  - first:
+      213: -7628892859421300013
+    second: hatAndShoe_36
+  - first:
+      213: -4626287792657574403
+    second: hatAndShoe_37
+  - first:
+      213: 1603957629153569953
+    second: hatAndShoe_38
+  - first:
+      213: 7090710193713384071
+    second: hatAndShoe_39
+  - first:
+      213: 6040611248134784020
+    second: hatAndShoe_40
+  - first:
+      213: 6417997671499414252
+    second: hatAndShoe_41
+  - first:
+      213: -688740595490621785
+    second: hatAndShoe_42
+  - first:
+      213: 8653264633192262819
+    second: hatAndShoe_43
+  - first:
+      213: 3803798801332420906
+    second: hatAndShoe_44
+  - first:
+      213: -7841121283179058936
+    second: hatAndShoe_45
+  - first:
+      213: 4882359247454374886
+    second: hatAndShoe_46
+  - first:
+      213: 7729413372092803158
+    second: hatAndShoe_47
+  - first:
+      213: 8744271235819201376
+    second: hatAndShoe_48
+  - first:
+      213: -3734703529280629751
+    second: hatAndShoe_49
+  - first:
+      213: 8455647603942003919
+    second: hatAndShoe_50
+  - first:
+      213: 570570889729572709
+    second: hatAndShoe_51
+  - first:
+      213: 7773465972687892087
+    second: hatAndShoe_52
+  - first:
+      213: 6380022458948572458
+    second: hatAndShoe_53
+  - first:
+      213: 2847059181147998306
+    second: hatAndShoe_54
+  - first:
+      213: 5875628497057367953
+    second: hatAndShoe_55
+  - first:
+      213: -4085670269608222783
+    second: hatAndShoe_56
+  - first:
+      213: -7492448902163137177
+    second: hatAndShoe_57
+  - first:
+      213: 8535802940021444064
+    second: hatAndShoe_58
+  - first:
+      213: -5624639679014495321
+    second: hatAndShoe_59
+  - first:
+      213: -6336357931036465623
+    second: hatAndShoe_60
+  - first:
+      213: -7984736912188066659
+    second: hatAndShoe_61
+  - first:
+      213: 8803545328302024572
+    second: hatAndShoe_62
+  - first:
+      213: -997377492261216987
+    second: hatAndShoe_63
+  - first:
+      213: -4285422151689457339
+    second: hatAndShoe_64
+  - first:
+      213: -2999044987436397310
+    second: hatAndShoe_65
+  - first:
+      213: 1161942200909594662
+    second: hatAndShoe_66
+  - first:
+      213: 3787710176340124210
+    second: hatAndShoe_67
+  - first:
+      213: 8442076232146017064
+    second: hatAndShoe_68
+  - first:
+      213: 4803837364521725996
+    second: hatAndShoe_69
+  - first:
+      213: -3677126871192814810
+    second: hatAndShoe_70
+  - first:
+      213: 7859777415128514486
+    second: hatAndShoe_71
+  - first:
+      213: -4242940414277670625
+    second: hatAndShoe_72
+  - first:
+      213: -2981709811456628911
+    second: hatAndShoe_73
+  - first:
+      213: 5733701724238899094
+    second: hatAndShoe_74
+  - first:
+      213: 4932443795001165720
+    second: hatAndShoe_75
+  - first:
+      213: 3514845701175210475
+    second: hatAndShoe_76
+  - first:
+      213: -4721931619464441016
+    second: hatAndShoe_77
+  - first:
+      213: -1339679884903878212
+    second: hatAndShoe_78
+  - first:
+      213: -1253834881560009828
+    second: hatAndShoe_79
+  - first:
+      213: -6408798340336944850
+    second: hatAndShoe_80
+  - first:
+      213: -3464058279118574995
+    second: hatAndShoe_81
+  - first:
+      213: -6129408466033555100
+    second: hatAndShoe_82
+  - first:
+      213: 744958072354180329
+    second: hatAndShoe_83
+  - first:
+      213: -819303764245051725
+    second: hatAndShoe_84
+  - first:
+      213: -7568948861260434517
+    second: hatAndShoe_85
+  - first:
+      213: -1101437331044985312
+    second: hatAndShoe_86
+  - first:
+      213: -7156262144668633182
+    second: hatAndShoe_87
+  - first:
+      213: -8579065341120175259
+    second: hatAndShoe_88
+  - first:
+      213: 2082526503756045892
+    second: hatAndShoe_89
+  - first:
+      213: 7350666636914411544
+    second: hatAndShoe_90
+  - first:
+      213: 9211391093408078060
+    second: hatAndShoe_91
+  - first:
+      213: 4388184697303320219
+    second: hatAndShoe_92
+  - first:
+      213: 6427310557687593481
+    second: hatAndShoe_93
+  - first:
+      213: -5123477822453470184
+    second: hatAndShoe_94
+  - first:
+      213: 4738895447849943520
+    second: hatAndShoe_95
+  - first:
+      213: -472038799369953523
+    second: hatAndShoe_96
+  - first:
+      213: -4492239114916372914
+    second: hatAndShoe_97
+  - first:
+      213: 7123076369462946974
+    second: hatAndShoe_98
+  - first:
+      213: -6868830267780698212
+    second: hatAndShoe_99
+  - first:
+      213: 2138952208273614948
+    second: hatAndShoe_100
+  - first:
+      213: -2944336954107137215
+    second: hatAndShoe_101
+  - first:
+      213: 756833970756844813
+    second: hatAndShoe_102
+  - first:
+      213: 3380248093337539558
+    second: hatAndShoe_103
+  - first:
+      213: 8988497969026618207
+    second: hatAndShoe_104
+  - first:
+      213: 2434709698197753377
+    second: hatAndShoe_105
+  - first:
+      213: 5767143340446997476
+    second: hatAndShoe_106
+  - first:
+      213: -1231410393361068668
+    second: hatAndShoe_107
+  - first:
+      213: 4245338191400428149
+    second: hatAndShoe_108
+  - first:
+      213: 8339988586469708614
+    second: hatAndShoe_109
+  - first:
+      213: -5383090334039005398
+    second: hatAndShoe_110
+  - first:
+      213: 8527017752721464052
+    second: hatAndShoe_111
+  - first:
+      213: -1463538942448065812
+    second: hatAndShoe_112
+  - first:
+      213: 6582212235013647397
+    second: hatAndShoe_113
+  - first:
+      213: -6064010270681882645
+    second: hatAndShoe_114
+  - first:
+      213: 7791509745280128786
+    second: hatAndShoe_115
+  - first:
+      213: -2916478912150219140
+    second: hatAndShoe_116
+  - first:
+      213: -8345087357602854801
+    second: hatAndShoe_117
+  - first:
+      213: -5530651724264647174
+    second: hatAndShoe_118
+  - first:
+      213: 8692551229249199320
+    second: hatAndShoe_119
+  - first:
+      213: 7400284983424168821
+    second: hatAndShoe_120
+  - first:
+      213: 7778458164738482788
+    second: hatAndShoe_121
+  - first:
+      213: 1255015686145351512
+    second: hatAndShoe_122
+  - first:
+      213: -3129876382659473995
+    second: hatAndShoe_123
+  - first:
+      213: 326229406448389037
+    second: hatAndShoe_124
+  - first:
+      213: -3459958581422358180
+    second: hatAndShoe_125
+  - first:
+      213: -2259803795264764831
+    second: hatAndShoe_126
+  - first:
+      213: -7126663045141296898
+    second: hatAndShoe_127
+  - first:
+      213: 5395502182633253362
+    second: hatAndShoe_128
+  - first:
+      213: -3724753907748372873
+    second: hatAndShoe_129
+  - first:
+      213: -6946692330552240040
+    second: hatAndShoe_130
+  - first:
+      213: 589477174440422399
+    second: hatAndShoe_131
+  - first:
+      213: 1309549934577348146
+    second: hatAndShoe_132
+  - first:
+      213: -4039819391545024947
+    second: hatAndShoe_133
+  - first:
+      213: 3912179671695039892
+    second: hatAndShoe_134
+  - first:
+      213: -8930404101964772003
+    second: hatAndShoe_135
+  - first:
+      213: -934128471228669040
+    second: hatAndShoe_136
+  - first:
+      213: 1982019650012926355
+    second: hatAndShoe_137
+  - first:
+      213: -3904227892543107876
+    second: hatAndShoe_138
+  - first:
+      213: 5361324883165248234
+    second: hatAndShoe_139
+  - first:
+      213: -6840657362167447535
+    second: hatAndShoe_140
+  - first:
+      213: 5733162615731440617
+    second: hatAndShoe_141
+  - first:
+      213: 7218814320633983206
+    second: hatAndShoe_142
+  - first:
+      213: -106541934424241575
+    second: hatAndShoe_143
+  - first:
+      213: 7606962315910565014
+    second: hatAndShoe_144
+  - first:
+      213: -3242208302698904623
+    second: hatAndShoe_145
+  - first:
+      213: -910943425085398201
+    second: hatAndShoe_146
+  - first:
+      213: 8129582455834800467
+    second: hatAndShoe_147
+  - first:
+      213: 8273060043404431117
+    second: hatAndShoe_148
+  - first:
+      213: -4461322346892607279
+    second: hatAndShoe_149
+  - first:
+      213: -5613447078674047443
+    second: hatAndShoe_150
+  - first:
+      213: -3218690827853231785
+    second: hatAndShoe_151
+  - first:
+      213: -2009452261715321532
+    second: hatAndShoe_152
+  - first:
+      213: 3637967976018149275
+    second: hatAndShoe_153
+  - first:
+      213: 1089408395464448990
+    second: hatAndShoe_154
+  - first:
+      213: 6579998542308313954
+    second: hatAndShoe_155
+  - first:
+      213: -5661608475321965999
+    second: hatAndShoe_156
+  - first:
+      213: 3906476670441523603
+    second: hatAndShoe_157
+  - first:
+      213: 124662016323832899
+    second: hatAndShoe_158
+  - first:
+      213: 5881491553958269279
+    second: hatAndShoe_159
+  - first:
+      213: -4645392403649442367
+    second: hatAndShoe_160
+  - first:
+      213: 2845253286917465728
+    second: hatAndShoe_161
+  - first:
+      213: -5027032333444104922
+    second: hatAndShoe_162
+  - first:
+      213: -9077506052962322601
+    second: hatAndShoe_163
+  - first:
+      213: 2268600154478934419
+    second: hatAndShoe_164
+  - first:
+      213: 2702913929036344863
+    second: hatAndShoe_165
+  - first:
+      213: -9042849168515876768
+    second: hatAndShoe_166
+  - first:
+      213: 4613243787537153036
+    second: hatAndShoe_167
+  - first:
+      213: 3262818038873681462
+    second: hatAndShoe_168
+  - first:
+      213: -2546673313572401505
+    second: hatAndShoe_169
+  - first:
+      213: 3048171722735056883
+    second: hatAndShoe_170
+  - first:
+      213: -3106009031517495543
+    second: hatAndShoe_171
+  - first:
+      213: -3643822819801020741
+    second: hatAndShoe_172
+  - first:
+      213: -6792124273262479187
+    second: hatAndShoe_173
+  - first:
+      213: 4347900310014070982
+    second: hatAndShoe_174
+  - first:
+      213: 1352618412558796811
+    second: hatAndShoe_175
+  - first:
+      213: 7144597516621315471
+    second: hatAndShoe_176
+  - first:
+      213: -7430752014638748678
+    second: hatAndShoe_177
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hatAndShoe_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1282
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40718e8517b90a80800000000000000
+      internalID: -8500061518472056753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1282
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98669d7e887dac060800000000000000
+      internalID: 6974623955941942921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1282
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28538ecf4cf4c9d30800000000000000
+      internalID: 4439511040155727234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1282
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b742160508519ae0800000000000000
+      internalID: -1544356418611427406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1282
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe23cac6046f4170800000000000000
+      internalID: 8164854629780369086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1282
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ab07a65c4235cc0800000000000000
+      internalID: -3723592036592338361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1282
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba4e5b0442ed9e30800000000000000
+      internalID: 4512011183571487419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1218
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47128230494d27a30800000000000000
+      internalID: 4211662333718045044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1218
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd52b935d84e59550800000000000000
+      internalID: 6167086560397960671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1218
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d30ef2f0f09c0d0800000000000000
+      internalID: -3402171485599548149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1218
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a4e7a7fd8703e50800000000000000
+      internalID: 6787057539675474496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1218
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d51b399466249570800000000000000
+      internalID: 8472439012500116950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1218
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704583acb3475d0a0800000000000000
+      internalID: -6857447057457130489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1218
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5823bc69699e4dbb0800000000000000
+      internalID: -4912044460570103163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1154
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d96500e78676240800000000000000
+      internalID: 4784908019485285702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1154
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960a22ade34a0f7d0800000000000000
+      internalID: -2886626771289857943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1154
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a943447794e1ecfc0800000000000000
+      internalID: -3472804961773669222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1154
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4736c786a5763f0f0800000000000000
+      internalID: -1084409447268457612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1154
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a5545744dbb4430800000000000000
+      internalID: 3768313614948457084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1154
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c270ce3f7550138a0800000000000000
+      internalID: -6327270126166210772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1154
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ce25ece601d6510800000000000000
+      internalID: 1543908315351936093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1090
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b16de518be1d33a0800000000000000
+      internalID: -6684152495957253710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1090
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92c0e05ace52df50800000000000000
+      internalID: 6904685401745703579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1090
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d378a1bc1a3a430800000000000000
+      internalID: 3793053204871593318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1090
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bda336fdf176cc0800000000000000
+      internalID: -3717967923068085455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1090
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1ce7be76b3154a0800000000000000
+      internalID: -6606433860857183836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1090
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031bacafa7f796e80800000000000000
+      internalID: -8184870681598840528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1090
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab9af88fc4ee0650800000000000000
+      internalID: 6201145316943240096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1026
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f084f4b10687d28c0800000000000000
+      internalID: -4022426538001610737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1024
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fbe1fc23db3e5d0800000000000000
+      internalID: -3034373697996669097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1024
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e909b148107c5640800000000000000
+      internalID: 5070050529996507620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1024
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d43efe6d4a484a50800000000000000
+      internalID: 6505531358171772114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1024
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3110620b1548e5130800000000000000
+      internalID: 3557426242051768595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_33
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1024
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c438ae67f9fa8d7c0800000000000000
+      internalID: -4046291165762649268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_34
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1024
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e90944df1a9a9860800000000000000
+      internalID: 7537506387854166501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1024
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1e2c5e8f5a88df0800000000000000
+      internalID: -177709696855907873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 962
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daedac2d5ab02690800000000000000
+      internalID: -7628892859421300013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 962
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df55be183cf1ccfb0800000000000000
+      internalID: -4626287792657574403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 962
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ace97037f6624610800000000000000
+      internalID: 1603957629153569953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 962
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a078d5a53476260800000000000000
+      internalID: 7090710193713384071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 962
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4148d47fcef84d350800000000000000
+      internalID: 6040611248134784020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 962
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceab103d0ee411950800000000000000
+      internalID: 6417997671499414252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 962
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6f367d31a1176f0800000000000000
+      internalID: -688740595490621785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_43
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 962
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac20e04652961870800000000000000
+      internalID: 8653264633192262819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 898
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21c97e3bdec9c430800000000000000
+      internalID: 3803798801332420906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 899
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8096b5bacbdbe2390800000000000000
+      internalID: -7841121283179058936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 899
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb8c522edf91c340800000000000000
+      internalID: 4882359247454374886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 899
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658eebd7284644b60800000000000000
+      internalID: 7729413372092803158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_48
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 899
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0636bae1c54e95970800000000000000
+      internalID: 8744271235819201376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 899
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90494db6deaab2cc0800000000000000
+      internalID: -3734703529280629751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_50
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 899
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc498d222be785570800000000000000
+      internalID: 8455647603942003919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 899
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f728183331be700800000000000000
+      internalID: 570570889729572709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_52
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 834
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ee5a7dd16e0eb60800000000000000
+      internalID: 7773465972687892087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 834
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d4a4af946a8850800000000000000
+      internalID: 6380022458948572458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 834
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26847daad39c28720800000000000000
+      internalID: 2847059181147998306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 834
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1974447dcfc6a8150800000000000000
+      internalID: 5875628497057367953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 834
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf90ae5988cc47c0800000000000000
+      internalID: -4085670269608222783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_57
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 834
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dfcc09b69750890800000000000000
+      internalID: -7492448902163137177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_58
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 834
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed86b0ac83457670800000000000000
+      internalID: 8535802940021444064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 834
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab16c6330441f1b0800000000000000
+      internalID: -5624639679014495321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 771
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926a7de780cb018a0800000000000000
+      internalID: -6336357931036465623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 771
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94b4145514803190800000000000000
+      internalID: -7984736912188066659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 770
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77ed7935d97c2a70800000000000000
+      internalID: 8803545328302024572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 769
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ddcc2847a9822f0800000000000000
+      internalID: -997377492261216987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 770
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541b5f7124f1784c0800000000000000
+      internalID: -4285422151689457339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 771
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d007a39704166d0800000000000000
+      internalID: -2999044987436397310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 770
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62080c6864c002010800000000000000
+      internalID: 1161942200909594662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_67
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 769
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232a2e45656a09430800000000000000
+      internalID: 3787710176340124210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 770
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd4d7ea97482570800000000000000
+      internalID: 8442076232146017064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_69
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 706
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20f01791a8aaa240800000000000000
+      internalID: 4803837364521725996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 706
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b3288c79838fcc0800000000000000
+      internalID: -3677126871192814810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_71
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 707
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf7f5a8ae9831d60800000000000000
+      internalID: 7859777415128514486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_72
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 707
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19a4db5c2c0e15c0800000000000000
+      internalID: -4242940414277670625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_73
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 706
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157a4d869b6de96d0800000000000000
+      internalID: -2981709811456628911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_74
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 706
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697ed49f653329f40800000000000000
+      internalID: 5733701724238899094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_75
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 706
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897cf939f7f837440800000000000000
+      internalID: 4932443795001165720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_76
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 706
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be17bd2fa8d37c030800000000000000
+      internalID: 3514845701175210475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_77
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 706
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8431320c534587eb0800000000000000
+      internalID: -4721931619464441016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 642
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1719b1e30886de0800000000000000
+      internalID: -1339679884903878212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 642
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c932f9d71db799ee0800000000000000
+      internalID: -1253834881560009828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 641
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e297a1f5ddf5f07a0800000000000000
+      internalID: -6408798340336944850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 641
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ae2e739513defc0800000000000000
+      internalID: -3464058279118574995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 641
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4694cc2a977ffeaa0800000000000000
+      internalID: -6129408466033555100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 642
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec0b3b7b6f965a00800000000000000
+      internalID: 744958072354180329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 641
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b68809319f31a4f0800000000000000
+      internalID: -819303764245051725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 641
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba37979dc11b5f690800000000000000
+      internalID: -7568948861260434517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 641
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02695b44598e6b0f0800000000000000
+      internalID: -1101437331044985312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_87
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 578
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a77373be79dfac90800000000000000
+      internalID: -7156262144668633182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 578
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563aaada68901f880800000000000000
+      internalID: -8579065341120175259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 579
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e17bb42de96ec10800000000000000
+      internalID: 2082526503756045892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_90
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 579
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818499b5c50d20660800000000000000
+      internalID: 7350666636914411544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_91
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 578
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce819c9356f65df70800000000000000
+      internalID: 9211391093408078060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 578
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c19b8bb6f5ec30800000000000000
+      internalID: 4388184697303320219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_93
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 578
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a361c16e4623950800000000000000
+      internalID: 6427310557687593481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_94
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 578
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ca11ad010c5e8b0800000000000000
+      internalID: -5123477822453470184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_95
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 578
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1cfc45d40f3c140800000000000000
+      internalID: 4738895447849943520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 514
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f1a53863bf279f0800000000000000
+      internalID: -472038799369953523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 513
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e5b4d635c58a1c0800000000000000
+      internalID: -4492239114916372914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_98
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 513
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c61d5e7304ad260800000000000000
+      internalID: 7123076369462946974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 513
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fea7a93430da0a0800000000000000
+      internalID: -6868830267780698212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 513
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468afa563b51fad10800000000000000
+      internalID: 2138952208273614948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 513
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1437367d32d9327d0800000000000000
+      internalID: -2944336954107137215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 450
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0df8ec8c70d08a00800000000000000
+      internalID: 756833970756844813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_103
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 450
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e353184bbd09ee20800000000000000
+      internalID: 3380248093337539558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_104
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 450
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53d62c974f8dbc70800000000000000
+      internalID: 8988497969026618207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 450
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e86442293d9c120800000000000000
+      internalID: 2434709698197753377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 450
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb5a100052090050800000000000000
+      internalID: 5767143340446997476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 450
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d4df285c629eee0800000000000000
+      internalID: -1231410393361068668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 386
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57262d1a7987aea30800000000000000
+      internalID: 4245338191400428149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 386
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643d657ae679db370800000000000000
+      internalID: 8339988586469708614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 386
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2724cdacdb6b45b0800000000000000
+      internalID: -5383090334039005398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 386
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa9960d77d065670800000000000000
+      internalID: 8527017752721464052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 386
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2ae64061770bbe0800000000000000
+      internalID: -1463538942448065812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 386
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ce7385727b85b50800000000000000
+      internalID: 6582212235013647397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 322
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef9fad89ce48dba0800000000000000
+      internalID: -6064010270681882645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_115
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 322
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2179a6705d0012c60800000000000000
+      internalID: 7791509745280128786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_116
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 322
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c765e5ea1e59687d0800000000000000
+      internalID: -2916478912150219140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 322
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f688a7e234b403c80800000000000000
+      internalID: -8345087357602854801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_118
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 322
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5ddc63f8d2f33b0800000000000000
+      internalID: -5530651724264647174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_119
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 322
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc9843b94522a870800000000000000
+      internalID: 8692551229249199320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_120
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 258
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573b7a9ebf713b660800000000000000
+      internalID: 7400284983424168821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_121
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 256
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46269712d72a2fb60800000000000000
+      internalID: 7778458164738482788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_122
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 256
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f9c300e16ba6110800000000000000
+      internalID: 1255015686145351512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_123
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 256
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd82b443027094d0800000000000000
+      internalID: -3129876382659473995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_124
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 256
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab84aeaaeff68400800000000000000
+      internalID: 326229406448389037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_125
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 256
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5181c87002cbffc0800000000000000
+      internalID: -3459958581422358180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_126
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 256
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1640a21db6093a0e0800000000000000
+      internalID: -2259803795264764831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_127
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 256
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8037818b1091d90800000000000000
+      internalID: -7126663045141296898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_128
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 256
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f923b406aca0ea40800000000000000
+      internalID: 5395502182633253362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_129
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 256
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ef8e43e040f4cc0800000000000000
+      internalID: -3724753907748372873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_130
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 256
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858d0896124689f90800000000000000
+      internalID: -6946692330552240040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_131
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 256
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbe8b1fd5e3e2800800000000000000
+      internalID: 589477174440422399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_132
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 256
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e6e1a2ab47c2210800000000000000
+      internalID: 1309549934577348146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_133
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 194
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e5932daadafe7c0800000000000000
+      internalID: -4039819391545024947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 194
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d13ec0faada4630800000000000000
+      internalID: 3912179671695039892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_135
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 194
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dc2b9d8c4d01480800000000000000
+      internalID: -8930404101964772003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_136
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 194
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09326d9ca1f4903f0800000000000000
+      internalID: -934128471228669040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_137
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 194
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3915dd8de5c818b10800000000000000
+      internalID: 1982019650012926355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_138
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 194
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdccbceca6561d9c0800000000000000
+      internalID: -3904227892543107876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_139
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 194
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaf6826390476a40800000000000000
+      internalID: 5361324883165248234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_140
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 194
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11049d95f5a1111a0800000000000000
+      internalID: -6840657362167447535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_141
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 194
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebc83ef509409f40800000000000000
+      internalID: 5733162615731440617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_142
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 194
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e034e0b0616e2460800000000000000
+      internalID: 7218814320633983206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_143
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 194
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ac5f4dcac758ef0800000000000000
+      internalID: -106541934424241575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_144
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 194
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cc1a34ceb519960800000000000000
+      internalID: 7606962315910565014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_145
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 194
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d34fc50abc5103d0800000000000000
+      internalID: -3242208302698904623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_146
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743ae4108cdab53f0800000000000000
+      internalID: -910943425085398201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 131
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351f744db2412d070800000000000000
+      internalID: 8129582455834800467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 131
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f4994e640dfc270800000000000000
+      internalID: 8273060043404431117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d044fc66f23612c0800000000000000
+      internalID: -4461322346892607279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_150
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2edd2e8f970912b0800000000000000
+      internalID: -5613447078674047443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_151
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7590004deb9e453d0800000000000000
+      internalID: -3218690827853231785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_152
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d5a5380ddfc14e0800000000000000
+      internalID: -2009452261715321532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_153
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ffec27998ac7230800000000000000
+      internalID: 3637967976018149275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_154
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb9cfae92b5e1f00800000000000000
+      internalID: 1089408395464448990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_155
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b00e8dfc9d05b50800000000000000
+      internalID: 6579998542308313954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_156
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152e713961ded61b0800000000000000
+      internalID: -5661608475321965999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_157
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399840995d7963630800000000000000
+      internalID: 3906476670441523603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_158
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 130
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c47ff7173eab100800000000000000
+      internalID: 124662016323832899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_159
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51942728614f9150800000000000000
+      internalID: 5881491553958269279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_160
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 66
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd4d22a830488fb0800000000000000
+      internalID: -4645392403649442367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 66
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0866ab62ace5c7720800000000000000
+      internalID: 2845253286917465728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 66
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d39a22ab46c3ab0800000000000000
+      internalID: -5027032333444104922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 66
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f8bae658360280800000000000000
+      internalID: -9077506052962322601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_164
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 66
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399fc1922dfab7f10800000000000000
+      internalID: 2268600154478934419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_165
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 66
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eaaa6d5eda28520800000000000000
+      internalID: 2702913929036344863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_166
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 66
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068bc21a798518280800000000000000
+      internalID: -9042849168515876768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_167
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 66
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cfd6268c8850040800000000000000
+      internalID: 4613243787537153036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 66
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e6dcd18bbd74d20800000000000000
+      internalID: 3262818038873681462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 66
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ecc893d1668acd0800000000000000
+      internalID: -2546673313572401505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_170
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 66
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7730c28084d4a20800000000000000
+      internalID: 3048171722735056883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 66
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f9e3ffd3d35e4d0800000000000000
+      internalID: -3106009031517495543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb64c41837a8e6dc0800000000000000
+      internalID: -3643822819801020741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_173
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8b1eda5f68db1a0800000000000000
+      internalID: -6792124273262479187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_174
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c01339bb48d65c30800000000000000
+      internalID: 4347900310014070982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_175
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08483d974775c210800000000000000
+      internalID: 1352618412558796811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8df9517695b62360800000000000000
+      internalID: 7144597516621315471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hatAndShoe_177
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb6079996aa0e890800000000000000
+      internalID: -7430752014638748678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 927fff994d059f744ae03efee786d667
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

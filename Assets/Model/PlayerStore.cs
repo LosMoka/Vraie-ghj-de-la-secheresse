@@ -27,6 +27,16 @@ namespace Model
             m_player = player;
         }
 
+        public bool buyPlayerPerk(PlayerPerk perk)
+        {
+            if (!m_player.canBuyThisPerk(perk)) 
+                return false;
+            
+            m_player.buyThisPerk(perk);
+            
+            return true;
+        }
+
         public bool buyPlayerPerk(PerkClass perkClass, int index)
         {
             PlayerPerk perk;
@@ -46,12 +56,7 @@ namespace Model
                     throw new ArgumentOutOfRangeException(nameof(perkClass), perkClass, null);
             }
 
-            if (!m_player.canBuyThisPerk(perk)) 
-                return false;
-            
-            m_player.buyThisPerk(perk);
-            
-            return true;
+            return buyPlayerPerk(perk);
 
         }
     }

@@ -7,7 +7,6 @@ namespace ModelToView
     {
         public MapElement mapElement;
         public bool isPrefab;
-        public MapAssetsManager mapAssetsManager;
         public int cost;
         private static int m_id_counter = 0;
         public void Awake()

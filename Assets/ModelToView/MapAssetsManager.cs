@@ -34,7 +34,8 @@ namespace ModelToView
             {
                 registerMapTrapViewPrefab(mapTrapViewPrefab);
             }
-            envLevelEditorView.build();
+            if(envLevelEditorView!=null)
+                envLevelEditorView.build();
         }
 
         public void registerMapElementViewPrefab(MapElementView mapElementView)

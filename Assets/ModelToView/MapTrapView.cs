@@ -9,7 +9,6 @@ namespace ModelToView
         public MapTrap mapTrap;
         public bool isPrefab;
         public int cost;
-        public MapAssetsManager mapAssetsManager;
         private static int m_id_counter = 0;
 
         public void Awake()

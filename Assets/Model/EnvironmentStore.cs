@@ -5,15 +5,15 @@ namespace Model
 {
     public class EnvironmentStore
     {
-        private List<MapTrap> m_map_traps;
-        private List<MapElement> m_map_elements;
+        public List<MapTrap> MapTraps { get; }
+        public List<MapElement> MapElements{ get; }
         private Environment m_environment;
 
         public EnvironmentStore(Environment environment)
         {
             m_environment = environment;
-            m_map_traps = new List<MapTrap>();
-            m_map_elements = new List<MapElement>();
+            MapTraps = new List<MapTrap>();
+            MapElements = new List<MapElement>();
         }
         
         public enum EnvironmentPerkClass
@@ -36,5 +36,14 @@ namespace Model
             return true;
         }
 
+        public void devOnlyAddMapElement(MapElement mapElement)
+        {
+            MapElements.Add(mapElement);
+        }
+
+        public void devOnlyAddMapTrap(MapTrap mapTrap)
+        {
+            MapTraps.Add(mapTrap);
+        }
     }
 }

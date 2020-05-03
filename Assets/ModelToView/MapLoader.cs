@@ -22,7 +22,7 @@ namespace Model
                     tile = id_to_map_element_tile[mapElement.Value.Id];
                 else
                 {
-                    tile = id_to_map_element_tile[mapElement.Value.Id] = new Tile();
+                    tile = id_to_map_element_tile[mapElement.Value.Id] = Tile.CreateInstance<Tile>();
                     tile.sprite = mapAssetsManager.getMapElementViewPrefab(mapElement.Value).GetComponent<SpriteRenderer>().sprite;
                 }
                 Point2i point = new Point2i(mapElement.Key);
@@ -39,7 +39,7 @@ namespace Model
                     tile = id_to_map_trap_tile[mapTrap.Value.Id];
                 else
                 {
-                    tile = id_to_map_trap_tile[mapTrap.Value.Id] = new Tile();
+                    tile = id_to_map_trap_tile[mapTrap.Value.Id] = Tile.CreateInstance<Tile>();
                     tile.sprite = mapAssetsManager.getMapTrapViewPrefab(mapTrap.Value).GetComponent<SpriteRenderer>().sprite;
                 }
                 Point2i point = new Point2i(mapTrap.Key);

@@ -15,7 +15,10 @@ namespace Model
         {
             Dictionary<int, Tile> id_to_map_element_tile = new Dictionary<int, Tile>();
             Dictionary<int, Tile> id_to_map_trap_tile = new Dictionary<int, Tile>();
-            
+
+            resetTileMap(ElementTilemap);
+            resetTileMap(TrapTilemap);
+
             foreach (var mapElement in mapManager.MapElements)
             {
                 Tile tile;
@@ -48,6 +51,20 @@ namespace Model
                 Vector3Int vec = new Vector3Int(point.x,point.y,0);
 
                 TrapTilemap.SetTile(vec,tile);
+            }
+        }
+
+        private void resetTileMap(Tilemap tilemap)
+        {
+            for (int i = 0; i < tilemap.size.x; i++)
+            {
+                for (int j = 0; j < tilemap.size.y; j++)
+                {
+                    int x = tilemap.origin.x + i;
+                    int y = tilemap.origin.y + j;
+                    
+                    tilemap.SetTile(new Vector3Int(x,y,0), null);
+                }
             }
         }
     }

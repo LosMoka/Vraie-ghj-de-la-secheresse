@@ -108,6 +108,15 @@ namespace EnvLevelEditor
                 if(m_selected_map_trap!=null)
                     m_map_manager.setMapTrap(position,m_selected_map_trap);
                 mapLoader.loadMap(m_map_manager);
+            }else if (Input.GetMouseButtonDown(1))
+            {
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                // get the collision point of the ray with the z = 0 plane
+                Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
+                Vector3Int position = grid.WorldToCell(worldPoint);
+                m_map_manager.removeMapElement(position);
+                m_map_manager.removeMapTrap(position);
+                mapLoader.loadMap(m_map_manager);
             }
         }
 

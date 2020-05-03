@@ -37,11 +37,18 @@ public class MapManager
     {
         Point2i point = new Point2i((int)vec.x,(int)vec.y);
         MapElements[point.ToString()] = mapElement;
+        
+        
+        Point2i sympoint = new Point2i(-(int)vec.x,(int)vec.y);
+        MapElements[sympoint.ToString()] = mapElement;
     }
     public void setMapTrap(Vector3 vec, MapTrap mapTrap)
     {
         Point2i point = new Point2i((int)vec.x,(int)vec.y);
         MapTraps[point.ToString()] = mapTrap;
+        
+        Point2i sympoint = new Point2i(-(int)vec.x,(int)vec.y);
+        MapTraps[sympoint.ToString()] = mapTrap;
     }
 
     public string saveToString()

@@ -1094,9 +1094,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 596526550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &596526552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1431,7 +1433,19 @@ MonoBehaviour:
   - {fileID: 148821478}
   - {fileID: 1560820296}
   - {fileID: 154876020}
-  mapTrapViewPrefabs: []
+  mapTrapViewPrefabs:
+  - {fileID: 1843380188}
+  - {fileID: 1635683174}
+  - {fileID: 1154506442}
+  - {fileID: 596526551}
+  - {fileID: 2064150285}
+  - {fileID: 1329332938}
+  - {fileID: 977395858}
+  - {fileID: 869014010}
+  - {fileID: 2022495037}
+  - {fileID: 1531667044}
+  - {fileID: 1014883005}
+  - {fileID: 2049879344}
   envLevelEditorView: {fileID: 0}
 --- !u!4 &807704950
 Transform:
@@ -1554,9 +1568,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 869014008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &869014011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1896,9 +1912,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 977395856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &977395859
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1990,9 +2008,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1014883003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &1014883006
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2159,7 +2179,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1142548653}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1337790762}
+        m_MethodName: onClickElement
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1142548652}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1142548653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2224,9 +2255,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1154506441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &1154506443
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2538,9 +2571,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329332937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &1329332939
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2949,9 +2984,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1531667042}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &1531667045
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3126,9 +3163,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1635683173}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &1635683175
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3902,9 +3941,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1843380187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &1843380189
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4195,9 +4236,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2022495035}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &2022495038
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4582,9 +4625,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2049879341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!1 &2064150284
 GameObject:
   m_ObjectHideFlags: 0
@@ -4612,9 +4657,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2064150284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ad620f3a0de9b4eb82cc1a1fb9d647, type: 3}
+  m_Script: {fileID: 11500000, guid: f82698fcc22148509e6c66fc0432bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPrefab: 1
+  cost: 20
 --- !u!212 &2064150286
 SpriteRenderer:
   m_ObjectHideFlags: 0

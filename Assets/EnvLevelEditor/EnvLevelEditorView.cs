@@ -23,6 +23,7 @@ namespace EnvLevelEditor
         private MapTrap m_selected_map_trap;
         public MapLoader mapLoader;
         private Client m_client;
+        public FakeClient fakeClient;
 
         // Start is called before the first frame update
         void Start()
@@ -111,6 +112,7 @@ namespace EnvLevelEditor
             else
             {
                 Debug.Log("No client !");
+                fakeClient.map = m_map_manager.saveToString();
             }
             SceneManager.LoadScene("EnvPhase1");
         }

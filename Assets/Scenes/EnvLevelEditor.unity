@@ -154,6 +154,7 @@ MonoBehaviour:
   mapAssetsManager: {fileID: 895331779}
   grid: {fileID: 1879279929}
   mapLoader: {fileID: 658676012}
+  fakeClient: {fileID: 1119691669}
 --- !u!4 &399041771
 Transform:
   m_ObjectHideFlags: 0
@@ -1303,6 +1304,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096083139}
   m_CullTransparentMesh: 0
+--- !u!1 &1119691668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119691670}
+  - component: {fileID: 1119691669}
+  m_Layer: 0
+  m_Name: FakeClient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1119691669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119691668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee0673859bbc2d4c8034f2b758fa99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: 
+--- !u!4 &1119691670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119691668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 858.47504, y: 211.48392, z: 207.20035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1176653698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,7 +1527,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1096083141}
   m_HandleRect: {fileID: 1096083140}
   m_Direction: 2
-  m_Value: 0.9999991
+  m_Value: 0.9999986
   m_Size: 0.83
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1750,7 +1795,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 994278007}
   m_HandleRect: {fileID: 994278006}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1846,6 +1891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1993636000}
+  - component: {fileID: 1993636001}
   m_Layer: 0
   m_Name: MapElementList
   m_TagString: Untagged
@@ -1869,6 +1915,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1993636001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993635999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc86da552907364388ec95740b5a0a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2015254646
 GameObject:
   m_ObjectHideFlags: 0

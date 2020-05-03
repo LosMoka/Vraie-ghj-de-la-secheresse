@@ -12,10 +12,11 @@
         }
         public int CompetencePointCost { get; private set; }
         public PerkType Type { get; private set; }
-        
+        public bool isBucheron { get; private set; }
 
-        public PlayerPerk(PerkType type, int competencePointCost)
+        public PlayerPerk(PerkType type, int competencePointCost, bool bucheron)
         {
+            isBucheron = bucheron;
             Type = type;
             CompetencePointCost = competencePointCost;
         }

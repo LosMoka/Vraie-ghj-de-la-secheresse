@@ -13,6 +13,8 @@ namespace ModelToView
 {
     public class GameManager : MonoBehaviour
     {
+        public Transform BucheronPerks, PyroPerks;
+
         public Client Client { get; private set; }
         private Server m_server;
         public ClientUdp ClientUdp { get; private set; }
@@ -76,19 +78,59 @@ namespace ModelToView
 
         public void createPlayer(int playerType)
         {
+            bool isbucheron;
             if (playerType == 0)
             {
                 //Magicien
                 Player = new Player(new Vector3(0,0,0));
                 PlayerStore = new PlayerStore(Player);
-                PlayerStore.BucheronOuMagicien = false;
+                isbucheron = false;
             }
             else
             {
                 //Bûcheron
                 Player = new Player(new Vector3(0,0,0));
                 PlayerStore = new PlayerStore(Player);
-                PlayerStore.BucheronOuMagicien = true;
+                isbucheron = true;
+            }
+
+            PlayerStore.BucheronOuMagicien = isbucheron;
+            //on créer les perks
+            createPerks(isbucheron);
+        }
+
+        private void createPerks(bool buche)
+        {
+            if (buche)
+            {
+                foreach (Transform i in BucheronPerks.GetChild(0))
+                {
+                    Debug.Log(i.GetComponent<PlayerPerksView>().getplayerPerk());
+                    PlayerStore.onlyDevAddAttackPerk(i.GetComponent<PlayerPerksView>().getplayerPerk());
+                }
+                foreach (Transform i in BucheronPerks.GetChild(1))
+                {
+                    PlayerStore.onlyDevAddDefensePerk(i.GetComponent<PlayerPerksView>().getplayerPerk());
+                }
+                foreach (Transform i in BucheronPerks.GetChild(2))
+                {
+                    PlayerStore.onlyDevAddDisplacementPerk(i.GetComponent<PlayerPerksView>().getplayerPerk());
+                }
+            }
+            else
+            {
+                foreach (Transform i in PyroPerks.GetChild(0))
+                {
+                    PlayerStore.onlyDevAddAttackPerk(i.GetComponent<PlayerPerksView>().getplayerPerk());
+                }
+                foreach (Transform i in PyroPerks.GetChild(1))
+                {
+                    PlayerStore.onlyDevAddDefensePerk(i.GetComponent<PlayerPerksView>().getplayerPerk());
+                }
+                foreach (Transform i in PyroPerks.GetChild(2))
+                {
+                    PlayerStore.onlyDevAddDisplacementPerk(i.GetComponent<PlayerPerksView>().getplayerPerk());
+                }
             }
         }
     }

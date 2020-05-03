@@ -8,6 +8,7 @@ public class PlayerPerksView : MonoBehaviour
     public bool isPrefab;
     public PlayerPerk.PerkType type;
     public int cost;
+    public bool isBucheron;
     private static int m_id_counter;
 
     public void Awake()
@@ -15,8 +16,12 @@ public class PlayerPerksView : MonoBehaviour
         if (isPrefab)
         {
             isPrefab = false;
-            playerPerk = new PlayerPerk(type, cost);
+            playerPerk = new PlayerPerk(type, cost, isBucheron);
             m_id_counter++;
         }
+    }
+    public PlayerPerk getplayerPerk()
+    {
+        return (playerPerk);
     }
 }

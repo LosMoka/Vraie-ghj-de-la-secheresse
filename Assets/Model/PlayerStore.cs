@@ -7,39 +7,41 @@ namespace Model
     {
         public enum PerkClass
         {
-            ATTACK,DEFENSE,DISPLACEMENT
+            ATTACK, DEFENSE, DISPLACEMENT
         }
-        
+
         private Player m_player;
         public List<PlayerPerk> AttackPerks { get; }
         public int AttackPerkCount { get; private set; }
-        public List<PlayerPerk> DefensePerks{ get; }
+        public List<PlayerPerk> DefensePerks { get; }
         public int DefensePerkCount { get; private set; }
-        public List<PlayerPerk> DisplacementPerks{ get; }
+        public List<PlayerPerk> DisplacementPerks { get; }
         public int DisplacementPerkCount { get; private set; }
 
         public PlayerStore()
         {
+
+        }
+
+        public PlayerStore(Player player)
+        {
+            m_player = player;
             AttackPerks = new List<PlayerPerk>();
             DefensePerks = new List<PlayerPerk>();
             DisplacementPerks = new List<PlayerPerk>();
+
             AttackPerkCount = 0;
             DefensePerkCount = 0;
             DisplacementPerkCount = 0;
         }
-        
-        public PlayerStore(Player player)
-        {
-            m_player = player;
-        }
 
         public bool buyPlayerPerk(PlayerPerk perk)
         {
-            if (!m_player.canBuyThisPerk(perk)) 
+            if (!m_player.canBuyThisPerk(perk))
                 return false;
-            
+
             m_player.buyThisPerk(perk);
-            
+
             return true;
         }
 
@@ -84,7 +86,7 @@ namespace Model
 
             return success;
         }
-        
+
         public bool BucheronOuMagicien { get; set; }
 
         public void onlyDevAddAttackPerk(PlayerPerk p)
@@ -93,11 +95,11 @@ namespace Model
         }
         public void onlyDevAddDefensePerk(PlayerPerk p)
         {
-            AttackPerks.Add(p);
+            DefensePerks.Add(p);
         }
         public void onlyDevAddDisplacementPerk(PlayerPerk p)
         {
-            AttackPerks.Add(p);
+            DisplacementPerks.Add(p);
         }
     }
 }

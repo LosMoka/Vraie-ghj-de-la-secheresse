@@ -580,6 +580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148821480}
   - component: {fileID: 148821479}
+  - component: {fileID: 148821481}
   - component: {fileID: 148821478}
   m_Layer: 0
   m_Name: TileTerreSprite
@@ -597,10 +598,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 148821477}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1fed4f720f2e3a418bbeba86c632e3b, type: 3}
+  m_Script: {fileID: 11500000, guid: 02172fb538ef44729db7b22051bd492f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameText: 
+  isPrefab: 0
+  mapAssetsManager: {fileID: 0}
+  cost: 0
 --- !u!212 &148821479
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -666,6 +669,20 @@ Transform:
   m_Father: {fileID: 1779292497}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148821481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148821477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fed4f720f2e3a418bbeba86c632e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameText: ElementGrass
+  mapElementViewPrefabs: []
 --- !u!1 &154876016
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NameText: 
+  mapElementViewPrefabs: []
 --- !u!212 &154876018
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2816,7 +2834,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 148821478}
+      - m_Target: {fileID: 0}
         m_MethodName: onClickMoins
         m_Mode: 1
         m_Arguments:
@@ -6602,7 +6620,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 148821478}
+      - m_Target: {fileID: 148821481}
         m_MethodName: onClickPlus
         m_Mode: 1
         m_Arguments:
@@ -6811,6 +6829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NameText: 
+  mapElementViewPrefabs: []
 --- !u!212 &1560820297
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8847,12 +8866,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1779292496}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02172fb538ef44729db7b22051bd492f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dacea4e4cdfc2d4c82f9d11c433ddad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPrefab: 0
-  mapAssetsManager: {fileID: 0}
-  cost: 0
+  mapElementViewPrefabs:
+  - {fileID: 148821478}
 --- !u!1 &1796285879
 GameObject:
   m_ObjectHideFlags: 0

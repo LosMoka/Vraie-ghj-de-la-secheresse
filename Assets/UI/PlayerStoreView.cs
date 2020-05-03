@@ -8,7 +8,7 @@ using ModelToView;
 public class PlayerStoreView : MonoBehaviour
 {
     PlayerStore m_player_store;
-    public Transform Attack, Defense, Movement;
+    public List<Transform> Attack, Defense, Movement;
     public GameObject Bucheron, Pyro;
     // Start is called before the first frame update
     void Start()
@@ -27,6 +27,7 @@ public class PlayerStoreView : MonoBehaviour
             //m_player_store = gameManager.
             //m_client = gameManager.Client;
         }
+        initializeButtons();
     }
 
     public void initializeButtons()
@@ -37,35 +38,44 @@ public class PlayerStoreView : MonoBehaviour
         int defense = m_player_store.DefensePerks.Count;
         int movement = m_player_store.DisplacementPerks.Count;
         */
-        int attack=2, defense, movement;
+        int attack=2, defense=1, movement=3;
 
         bool isBucheron = true;
 
         Bucheron.SetActive(isBucheron);
         Pyro.SetActive(!isBucheron);
 
-        foreach (Transform i in Attack)
+        foreach (Transform j in Attack)
         {
-            i.GetComponent<Button>().interactable = false;
-            if (i.GetComponent<PerksView>().index == attack)
+            foreach (Transform i in j)
             {
-                i.GetComponent<Button>().interactable = true;
+                i.GetComponent<Button>().interactable = false;
+                if (i.GetComponent<PerksView>().index == attack)
+                {
+                    i.GetComponent<Button>().interactable = true;
+                }
             }
         }
-        foreach (Transform i in Defense)
+        foreach (Transform j in Defense)
         {
-            i.GetComponent<Button>().interactable = false;
-            if (i.GetComponent<PerksView>().index == attack)
+            foreach (Transform i in j)
             {
-                i.GetComponent<Button>().interactable = true;
+                i.GetComponent<Button>().interactable = false;
+                if (i.GetComponent<PerksView>().index == defense)
+                {
+                    i.GetComponent<Button>().interactable = true;
+                }
             }
         }
-        foreach (Transform i in Movement)
+        foreach (Transform j in Movement)
         {
-            i.GetComponent<Button>().interactable = false;
-            if (i.GetComponent<PerksView>().index == attack)
+            foreach (Transform i in j)
             {
-                i.GetComponent<Button>().interactable = true;
+                i.GetComponent<Button>().interactable = false;
+                if (i.GetComponent<PerksView>().index == movement)
+                {
+                    i.GetComponent<Button>().interactable = true;
+                }
             }
         }
     }
@@ -77,6 +87,7 @@ public class PlayerStoreView : MonoBehaviour
     }
     public void BuyPerks(Button i, PlayerStore.PerkClass clas, int index)
     {
+        Debug.Log(index);
         bool j = m_player_store.buyPlayerPerk(clas, index);
         if (j)
         {

@@ -41,15 +41,17 @@ public class Magician : MonoBehaviour
     private string map_as_string;
     public MapLoader mapLoader;
 
+
     enum direction
     {
-<<<<<<< HEAD
         RIGHTDIR,
         LEFTDIR
     };
 
     private direction playerDirection;
-=======
+    // Start is called before the first frame update  
+    void Start()
+    {
         GameObject gameManagerGameObject = GameObject.Find("GameManager");
 
         if (gameManagerGameObject != null)
@@ -62,30 +64,27 @@ public class Magician : MonoBehaviour
             m_map_manager = gameManager.MapManager;
 
             map_as_string = null;
-            m_client.addNetworkMessageHandler("MAP", delegate(string data) { map_as_string = data; });
+            m_client.addNetworkMessageHandler("MAP", delegate (string data) { map_as_string = data; });
             m_client.send("GETMAP");
         }
         else
         {
             Debug.LogError("GameManager not found !");
-            playerBehaviour = new Player(new Vector3(0,0,0));
+            playerBehaviour = new Player(new Vector3(0, 0, 0));
             m_map_manager = new MapManager();
         }
     }
->>>>>>> master
-
-    // Update is called once per frame 
     void Update()
     {
-<<<<<<< HEAD
-=======
+ 
+
         if (map_as_string != null)
         {
             m_map_manager.loadFromString(map_as_string);
             mapLoader.loadMap(m_map_manager);
             map_as_string = null;
         }
->>>>>>> master
+
 
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime * 100;
         velocity.x = horizontalMovement;
@@ -93,36 +92,35 @@ public class Magician : MonoBehaviour
 
         if (horizontalMovement >= 0)
             playerDirection = direction.RIGHTDIR;
-        else playerDirection = direction.LEFTDIR;
+        else
+            playerDirection = direction.LEFTDIR;
 
         if (Input.GetButtonDown("Jump") && isGrounded)
             isJumping = true;
 
         if (isJumping)
         {
-            rigidBody.AddForce(new Vector2(0f, jumpForce));      
+            rigidBody.AddForce(new Vector2(0f, jumpForce));
             isJumping = false;
         }
 
         if (isWallJump && Input.GetButtonDown("Jump") && !isGrounded)
         {
-            wallJump();            
-        }
-
-        if (!isWallJumpDelay)
-        {
             if (playerDirection == direction.LEFTDIR)
-                rigidBody.AddRelativeForce(new Vector2(+Time.deltaTime * 500 * 50, 0));
+                rigidBody.AddRelativeForce(new Vector2(+100, 300));
 
             else if (playerDirection == direction.RIGHTDIR)
-                rigidBody.AddRelativeForce(new Vector2(-Time.deltaTime * 500 * 50, 0));
+                rigidBody.AddRelativeForce(new Vector2(-100, 300));
+        
+           // rigidBody.AddForce(new Vector2(0f, jumpForce));
         }
+
 
         if (Input.GetButtonDown("Fire1") && isFireballReady)
         {
             isFireballReady = false;
             animator.SetBool("ThrowFireBall", true);
-            StartCoroutine(fireballDelay());     
+            StartCoroutine(fireballDelay());
         }
 
         if (Input.GetButtonDown("Fire2") && isFireAttackReady)
@@ -139,7 +137,7 @@ public class Magician : MonoBehaviour
         float characterVelocity = Mathf.Abs(rigidBody.velocity.x);
         animator.SetFloat("Speed", characterVelocity);
 
-       // transform.position = rigidBody.position;
+        // transform.position = rigidBody.position;
     }
 
     private void FixedUpdate()
@@ -158,25 +156,14 @@ public class Magician : MonoBehaviour
         }
     }
 
-    public void wallJump()
-    {
-        isWallJumpDelay = false;
-        StartCoroutine(WallJumpDelay());
-
-        if (playerDirection == direction.LEFTDIR)
-            rigidBody.AddRelativeForce(new Vector2(0f, 250));
-
-        else if (playerDirection == direction.RIGHTDIR)
-            rigidBody.AddRelativeForce(new Vector2(0f, 250));
-    }
     public void throwFireAttack()
     {
         Instantiate(fireAttack, this.transform);
     }
 
     public void throwFireBall()
-    {       
-        Instantiate(fireball, this.transform);       
+    {
+        Instantiate(fireball, this.transform);
     }
     private void OnDrawGizmos()
     {
@@ -184,7 +171,7 @@ public class Magician : MonoBehaviour
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
 
         Gizmos.color = Color.blue;
-        Gizmos.DrawWireCube(wallJumpCheckA.position, new Vector2(0.5f,0.4f));
+        Gizmos.DrawWireCube(wallJumpCheckA.position, new Vector2(0.5f, 0.4f));
 
     }
 
@@ -225,7 +212,7 @@ public class Magician : MonoBehaviour
         isWallJumpDelay = true;
     }
     public IEnumerator fireballDelay()
-    {  
+    {
         yield return new WaitForSeconds(0.3f);
         throwFireBall();
         yield return new WaitForSeconds(0.7f);

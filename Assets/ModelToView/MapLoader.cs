@@ -19,6 +19,8 @@ namespace Model
             resetTileMap(ElementTilemap);
             resetTileMap(TrapTilemap);
 
+            mapAssetsManager = GameObject.Find("MapAssetManager").GetComponent<MapAssetsManager>();
+
             foreach (var mapElement in mapManager.MapElements)
             {
                 Tile tile;

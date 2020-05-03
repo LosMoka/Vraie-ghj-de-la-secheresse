@@ -35,9 +35,6 @@ namespace EnvLevelEditor
                 m_map_manager = new MapManager();
                 //TODO <a remove>
                 m_environment = new Environment(999999);
-                m_environment.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("GrassPrefab"));
-                m_environment.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("RockPrefab"));
-                m_environment.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("TrapPrefab"));
                 //TODO </a remove>
                 m_client = null;
             }
@@ -47,6 +44,14 @@ namespace EnvLevelEditor
                 m_map_manager = gameManager.MapManager;
                 m_environment = gameManager.environmentInstance;
                 m_client = gameManager.Client;
+            }
+
+            mapAssetsManager = GameObject.Find("MapAssetManager").GetComponent<MapAssetsManager>();
+            if (m_environment.MapElements.Count == 0)
+            {
+                m_environment.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TileTerreSprite"));
+                m_environment.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TilePierreSprite"));
+                m_environment.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("TrapSprite"));
             }
             
             m_button_to_map_element = new Dictionary<Button, MapElement>();

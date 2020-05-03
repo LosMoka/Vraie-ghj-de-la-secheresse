@@ -5,12 +5,15 @@ using UnityEngine.UI;
 using Model;
 using ModelToView;
 using UnityEngine.SceneManagement;
+using Network;
 
 public class PlayerStoreView : MonoBehaviour
 {
     PlayerStore m_player_store;
     public List<Transform> Attack, Defense, Movement;
     public GameObject Bucheron, Pyro;
+    private Client m_client;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,14 +22,13 @@ public class PlayerStoreView : MonoBehaviour
         if (gameManagerGameObject == null)
         {
             m_player_store = new PlayerStore();
+            m_client = null;
         }
         else
         {
             GameManager gameManager = gameManagerGameObject.GetComponent<GameManager>();
-            //METTRE LE BON PLAYERSTORE !!!
-
-            //m_player_store = gameManager.
-            //m_client = gameManager.Client;
+            m_player_store = gameManager.PlayerStore;
+            m_client = gameManager.Client;
         }
         initializeButtons();
     }
@@ -34,14 +36,16 @@ public class PlayerStoreView : MonoBehaviour
     public void initializeButtons()
     {
         //mettre les ints en les cherchant dans PlayerStore
-        /*
         int attack = m_player_store.AttackPerks.Count;
         int defense = m_player_store.DefensePerks.Count;
         int movement = m_player_store.DisplacementPerks.Count;
-        */
-        int attack=2, defense=1, movement=3;
+        
+        //int attack=2, defense=1, movement=3;
 
-        bool isBucheron = true;
+
+
+        //TODO : get si c'est un bucheron ou un pyro
+        bool isBucheron = false;
 
         Bucheron.SetActive(isBucheron);
         Pyro.SetActive(!isBucheron);

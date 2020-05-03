@@ -77,8 +77,6 @@ public class FavServerView : MonoBehaviour
         {
             if (m_editMode)
                 OnClickBackEditMode();
-            else
-                OnClickJoin();
         }
 
         foreach (var buttonServerView in m_serverlist)
@@ -161,11 +159,18 @@ public class FavServerView : MonoBehaviour
         JoinButton.interactable = true;
         HostButton.interactable = true;
     }
-    public void OnClickJoin()
+    public void OnClickJoinMag()
     {
         if (m_currentServer == null)
             return;
         gameManager.createPlayer(0);
+        gameManager.connectToServer(m_currentServer.getIP(), Convert.ToInt32(m_currentServer.getPortTCP()),Convert.ToInt32(m_currentServer.getPortUDP()),"PlayerStore");
+    }
+    public void OnClickJoinBuch()
+    {
+        if (m_currentServer == null)
+            return;
+        gameManager.createPlayer(1);
         gameManager.connectToServer(m_currentServer.getIP(), Convert.ToInt32(m_currentServer.getPortTCP()),Convert.ToInt32(m_currentServer.getPortUDP()),"PlayerStore");
     }
     public void OnClickHost()

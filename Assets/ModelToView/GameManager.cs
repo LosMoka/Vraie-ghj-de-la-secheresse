@@ -81,12 +81,14 @@ namespace ModelToView
                 //Magicien
                 Player = new Player(new Vector3(0,0,0));
                 PlayerStore = new PlayerStore(Player);
+                PlayerStore.BucheronOuMagicien = false;
             }
             else
             {
                 //Bûcheron
                 Player = new Player(new Vector3(0,0,0));
                 PlayerStore = new PlayerStore(Player);
+                PlayerStore.BucheronOuMagicien = true;
             }
         }
     }

@@ -29,10 +29,6 @@ namespace EnvLevelEditor
         // Start is called before the first frame update
         void Start()
         {
-        }
-        
-        public void build()
-        {
             GameObject gameManagerGameObject = GameObject.Find("GameManager");
             if (gameManagerGameObject == null)
             {

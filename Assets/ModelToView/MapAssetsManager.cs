@@ -13,7 +13,8 @@ namespace ModelToView
         private Dictionary<string, MapTrap> m_name_to_id_map_trap;
         public List<MapElementView> mapElementViewPrefabs;
         public List<MapTrapView> mapTrapViewPrefabs;
-        public EnvLevelEditorView envLevelEditorView;
+        public List<MapMalusView> mapMalusViewPrefabs;
+        private Dictionary<string, MapMalus> m_name_to_id_map_malus;
 
         void Awake()
         {
@@ -21,7 +22,7 @@ namespace ModelToView
             m_id_to_map_trap_game_object = new Dictionary<int, GameObject>();
             m_name_to_id_map_element = new Dictionary<string, MapElement>();
             m_name_to_id_map_trap = new Dictionary<string, MapTrap>();
-            DontDestroyOnLoad(this.gameObject);
+            m_name_to_id_map_malus = new Dictionary<string, MapMalus>();
         }
 
         private void Start()
@@ -34,8 +35,16 @@ namespace ModelToView
             {
                 registerMapTrapViewPrefab(mapTrapViewPrefab);
             }
-            if(envLevelEditorView!=null)
-                envLevelEditorView.build();
+            foreach(var mapMalusViewPrefab in mapMalusViewPrefabs)
+            {
+                registerMapMalusViewPrefab(mapMalusViewPrefab);
+            }
+        }
+
+        private void registerMapMalusViewPrefab(MapMalusView mapMalusView)
+        {
+            m_id_to_map_trap_game_object[mapMalusView.mapMalus.Id] = mapMalusView.gameObject;
+            m_name_to_id_map_malus[mapMalusView.gameObject.name] = mapMalusView.mapMalus;
         }
 
         public void registerMapElementViewPrefab(MapElementView mapElementView)

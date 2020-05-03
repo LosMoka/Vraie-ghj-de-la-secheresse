@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using ModelToView;
+using UnityEngine.SceneManagement;
 
 namespace Model
 {
@@ -34,9 +35,6 @@ namespace Model
                 //TODO <a remove>
                 m_environment = new Environment(100000);
                 m_environmentStore = new EnvironmentStore(m_environment);
-                m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TileTerreSprite"));
-                m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TilePierreSprite"));
-                m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TileEauSprite"));
                 //TODO </a remove>
             }
             else
@@ -46,6 +44,10 @@ namespace Model
                 m_environment = gameManager.environmentInstance;
             }
 
+            mapAssetsManager = GameObject.Find("MapAssetManager").GetComponent<MapAssetsManager>();
+            m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TileTerreSprite"));
+            m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TilePierreSprite"));
+            m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TileEauSprite"));
 
             foreach (var mapElement in m_environmentStore.MapElements)
             {
@@ -76,6 +78,11 @@ namespace Model
         public void onClickMoins()
         {
             Debug.Log("onClickMoins ES");
+        }
+
+        public void onReadyButtonClick()
+        {
+            SceneManager.LoadScene("EnvLevelEditor");
         }
     }
 

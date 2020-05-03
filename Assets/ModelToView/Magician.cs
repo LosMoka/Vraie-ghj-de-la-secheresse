@@ -25,11 +25,13 @@ public class Magician : MonoBehaviour
     private float horizontalMovement;
 
     private bool isFireballReady = true;
+    private bool isFireAttackReady = true;
 
 
     private bool isInvicible;
 
     public GameObject fireball;
+    public GameObject fireAttack;
 
     // Start is called before the first frame update 
     void Start()
@@ -61,12 +63,20 @@ public class Magician : MonoBehaviour
             rigidBody.AddRelativeForce(new Vector2(-1000f, jumpForce));        
         }
 
-        if (Input.GetButtonDown("Jump") && isFireballReady)
+        if (Input.GetButtonDown("Fire1") && isFireballReady)
         {
             isFireballReady = false;
             animator.SetBool("ThrowFireBall", true);
             StartCoroutine(fireballDelay());
             
+        }
+
+        if (Input.GetButtonDown("Fire2") && isFireAttackReady)
+        {
+            isFireAttackReady = false;
+            animator.SetBool("ThrowFireBall", true);
+            StartCoroutine(fireAttackDelay());
+
         }
 
         playerBehaviour.movePlayer(velocity);
@@ -95,6 +105,10 @@ public class Magician : MonoBehaviour
         }
     }
 
+    public void throwFireAttack()
+    {
+        Instantiate(fireAttack, this.transform);
+    }
 
     public void throwFireBall()
     {       
@@ -132,7 +146,6 @@ public class Magician : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
             yield return new WaitForSeconds(0.1f);
-
         }
     }
 
@@ -143,14 +156,20 @@ public class Magician : MonoBehaviour
     }
 
     public IEnumerator fireballDelay()
-    {
-        
+    {  
         yield return new WaitForSeconds(0.3f);
         throwFireBall();
         yield return new WaitForSeconds(0.7f);
         isFireballReady = true;
         animator.SetBool("ThrowFireBall", false);
-        
+    }
 
+    public IEnumerator fireAttackDelay()
+    {
+        yield return new WaitForSeconds(0.3f);
+        throwFireAttack();
+        yield return new WaitForSeconds(0.7f);
+        isFireAttackReady = true;
+        animator.SetBool("ThrowFireBall", false);
     }
 }

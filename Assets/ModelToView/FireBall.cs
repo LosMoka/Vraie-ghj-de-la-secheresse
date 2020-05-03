@@ -8,8 +8,10 @@ public class FireBall : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public float fireBallTimer;
     public float speed;
+    public Animator animator;
 
     private bool isDestroyed = false;
+    private bool isOnMovement = true;
     private float xPos, yPos;
 
     enum direction
@@ -44,43 +46,56 @@ public class FireBall : MonoBehaviour
 
     private void Update()
     {
-        if ( fireballDirection == direction.LEFTDIR)
+        if (isOnMovement)
         {
-            this.gameObject.transform.position = new Vector3(xPos - 2.0f, yPos, 0);
-            xPos -= Time.deltaTime * speed;
+            if (fireballDirection == direction.LEFTDIR)
+            {
+                this.gameObject.transform.position = new Vector3(xPos - 2.0f, yPos, 0);
+                xPos -= Time.deltaTime * speed;
+            }
+            else
+            {
+                this.gameObject.transform.position = new Vector3(xPos + 2.0f, yPos, 0);
+                xPos += Time.deltaTime * speed;
+            }
         }
         else
         {
-            this.gameObject.transform.position = new Vector3(xPos + .0f, yPos, 0);
-            xPos += Time.deltaTime * speed;
+            if (fireballDirection == direction.LEFTDIR)
+            {
+                this.gameObject.transform.position = new Vector3(xPos - 3.0f, yPos, 0);
+                
+            }
+            else
+            {
+                this.gameObject.transform.position = new Vector3(xPos + 3.0f, yPos, 0);
+            }
         }
+   
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        /*Magician magician = collision.transform.GetComponent<Magician>();
- 
-        if (magician.spriteRenderer.flipX)
-            this.spriteRenderer.flipX = true;
-        else
-            this.spriteRenderer.flipX = false;
-*/
+
         if (collision.CompareTag("Player"))
-            Destroy(gameObject);
-            
-            //Magician enemy = collision.transform.GetComponent<Magician>();
+        {
+            animator.SetBool("isExplosed", true);
+            StartCoroutine(Destruction());
+            isOnMovement = false;
+        }          
             
     }
-
-
-
 
     public IEnumerator FireBallTimer()
     {
         yield return new WaitForSeconds(fireBallTimer);
-        Destroy(gameObject);
+        StartCoroutine(Destruction());
         isDestroyed = true;
+    }
 
-
+    public IEnumerator Destruction()
+    {
+        yield return new WaitForSeconds(0.4f);
+        Destroy(gameObject);
     }
 }

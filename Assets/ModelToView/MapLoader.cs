@@ -7,7 +7,8 @@ namespace Model
 {
     public class MapLoader : MonoBehaviour
     {
-        public Tilemap tilemap;
+        public Tilemap ElementTilemap;
+        public Tilemap TrapTilemap;
         public MapAssetsManager mapAssetsManager;
 
         public void loadMap(MapManager mapManager)
@@ -28,8 +29,8 @@ namespace Model
                 Point2i point = new Point2i(mapElement.Key);
                 
                 Vector3Int vec = new Vector3Int(point.x,point.y,0);
-                
-                tilemap.SetTile(vec,tile);
+
+                ElementTilemap.SetTile(vec,tile);
             }
             
             foreach (var mapTrap in mapManager.MapTraps)
@@ -45,8 +46,8 @@ namespace Model
                 Point2i point = new Point2i(mapTrap.Key);
                 
                 Vector3Int vec = new Vector3Int(point.x,point.y,0);
-                
-                tilemap.SetTile(vec,tile);
+
+                TrapTilemap.SetTile(vec,tile);
             }
         }
     }

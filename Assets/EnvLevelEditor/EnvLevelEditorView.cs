@@ -40,6 +40,7 @@ namespace EnvLevelEditor
                 m_environment = new Environment(999999);
                 m_environment.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("GrassPrefab"));
                 m_environment.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("RockPrefab"));
+                m_environment.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("TrapPrefab"));
                 //TODO </a remove>
                 m_client = null;
             }
@@ -60,6 +61,14 @@ namespace EnvLevelEditor
                 newButton.image.sprite = sprite;
                 //newButton.GetComponent<RectTransform>().sizeDelta = sprite.rect.size;
                 m_button_to_map_element[newButton] = mapElement;
+            }
+            foreach (var maptrap in m_environment.MapTrapsLeft)
+            {
+                Sprite sprite = mapAssetsManager.getMapTrapViewPrefab(maptrap).GetComponent<SpriteRenderer>().sprite;
+                Button newButton = Instantiate(buttonPrefab, buttonPrefab.transform.parent);
+                newButton.image.sprite = sprite;
+                //newButton.GetComponent<RectTransform>().sizeDelta = sprite.rect.size;
+                m_button_to_map_trap[newButton] = maptrap;
             }
             buttonPrefab.gameObject.SetActive(false);
         }

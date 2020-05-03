@@ -64,5 +64,9 @@ namespace Model
             //TODO : remove cette fontion
             MapElements.Add(mapElement);
         }
+        public void devOnlyAddMapTrap(MapTrap mapTrap)
+        {
+            MapTrapsLeft.Add(mapTrap);
+        }
     }
 }

@@ -24,6 +24,7 @@ namespace EnvLevelEditor
         public MapLoader mapLoader;
         private Client m_client;
         public FakeClient fakeClient;
+        private bool canRay;
 
         // Start is called before the first frame update
         void Start()
@@ -96,7 +97,7 @@ namespace EnvLevelEditor
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetMouseButtonDown(0) && (m_selected_map_trap != null || m_selected_map_element!=null))
+            if (Input.GetMouseButtonDown(0) && (m_selected_map_trap != null || m_selected_map_element!=null) && canRay)
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 // get the collision point of the ray with the z = 0 plane
@@ -108,7 +109,7 @@ namespace EnvLevelEditor
                 if(m_selected_map_trap!=null)
                     m_map_manager.setMapTrap(position,m_selected_map_trap);
                 mapLoader.loadMap(m_map_manager);
-            }else if (Input.GetMouseButtonDown(1))
+            }else if (Input.GetMouseButtonDown(1) && canRay)
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 // get the collision point of the ray with the z = 0 plane
@@ -134,6 +135,9 @@ namespace EnvLevelEditor
             }
             SceneManager.LoadScene("EnvPhase1");
         }
-        
+        public void setRay(bool i)
+        {
+            canRay = i;
+        }
     }
 }

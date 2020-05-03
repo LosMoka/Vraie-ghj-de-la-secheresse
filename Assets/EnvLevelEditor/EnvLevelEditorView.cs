@@ -16,6 +16,7 @@ namespace EnvLevelEditor
         private Tile selectedTile;
         private Dictionary<Button, MapElement> m_button_to_map_element;
         private Dictionary<Button, MapTrap> m_button_to_map_trap;
+        private Dictionary<Button, MapMalus> m_button_to_map_malus;
         public Grid grid;
         private MapManager m_map_manager;
         private Model.Environment m_environment;
@@ -56,6 +57,8 @@ namespace EnvLevelEditor
             
             m_button_to_map_element = new Dictionary<Button, MapElement>();
             m_button_to_map_trap = new Dictionary<Button, MapTrap>();
+            m_button_to_map_malus = new Dictionary<Button, MapMalus>();
+            
             foreach (var mapElement in m_environment.MapElements)
             {
                 Sprite sprite = mapAssetsManager.getMapElementViewPrefab(mapElement).GetComponent<SpriteRenderer>().sprite;

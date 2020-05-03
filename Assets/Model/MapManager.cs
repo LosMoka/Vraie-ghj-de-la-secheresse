@@ -97,5 +97,28 @@ public class MapManager
         if (MapTraps.ContainsKey(i.ToString()))
             return (true);
         return (false);
+	}
+    public void removeMapElement(Vector3Int vec)
+    {
+        Point2i point = new Point2i((int)vec.x,(int)vec.y);
+        Point2i sympoint = new Point2i(-(int)vec.x,(int)vec.y);
+        
+        if (MapElements.ContainsKey(point.ToString()))
+        {
+            MapElements.Remove(point.ToString());
+            MapElements.Remove(sympoint.ToString());
+        }
+    }
+
+    public void removeMapTrap(Vector3Int vec)
+    {
+        Point2i point = new Point2i((int)vec.x,(int)vec.y);
+        Point2i sympoint = new Point2i(-(int)vec.x,(int)vec.y);
+        
+        if (MapTraps.ContainsKey(point.ToString()))
+        {
+            MapTraps.Remove(point.ToString());
+            MapTraps.Remove(sympoint.ToString());
+        }
     }
 }

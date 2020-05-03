@@ -86,7 +86,7 @@ public class Magician : MonoBehaviour
         }
 
 
-        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime * 100;
+        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime * 20;
         velocity.x = horizontalMovement;
         velocity.y = rigidBody.velocity.y;
 
@@ -107,10 +107,10 @@ public class Magician : MonoBehaviour
         if (isWallJump && Input.GetButtonDown("Jump") && !isGrounded)
         {
             if (playerDirection == direction.LEFTDIR)
-                rigidBody.AddRelativeForce(new Vector2(+100, 300));
+                rigidBody.AddForce(new Vector2(300, 50));
 
             else if (playerDirection == direction.RIGHTDIR)
-                rigidBody.AddRelativeForce(new Vector2(-100, 300));
+                rigidBody.AddForce(new Vector2(-300, 50));
         
            // rigidBody.AddForce(new Vector2(0f, jumpForce));
         }

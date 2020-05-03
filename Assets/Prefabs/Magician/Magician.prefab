@@ -131,8 +131,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 500
+  jumpForce: 75
   rigidBody: {fileID: 2264381569737266297}
+  isGrounded: 0
   isWallJump: 0
   animator: {fileID: 2264381569737266296}
   groundCheck: {fileID: 2264381569508234291}
@@ -145,6 +146,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2264381569737266311}
   fireball: {fileID: 6962747224018893994, guid: 912e73ef354d0b6498125d202b4c15d4,
     type: 3}
+  fireAttack: {fileID: 0}
+  mapLoader: {fileID: 0}
 --- !u!70 &2264381569737266309
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

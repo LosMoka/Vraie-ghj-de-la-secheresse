@@ -83,6 +83,7 @@ namespace Model
 
             ElementButtonPrefab.gameObject.SetActive(false);
             TrapButtonPrefab.gameObject.SetActive(false);
+            InventoryButtonPrefab.gameObject.SetActive(false);
             
         }
 
@@ -96,19 +97,20 @@ namespace Model
         {
             MapElement mapElement = m_button_to_map_element[button];
             bool isBuyable = m_environmentStore.buyEnvironmentPerk(mapElement);
-            Debug.Log("onClickPlus ES" + " " + gameObject.name + " ; " + mapElement.Id + " ; " + mapElement+" is buyable:"+isBuyable);
+
+            Button b = Instantiate(InventoryButtonPrefab,InventoryButtonPrefab.transform.parent);
+            b.image.sprite = button.image.sprite;
+            b.gameObject.SetActive(true);
         }
 
         public void onClickTrap(Button button)
         {
             MapTrap mapTrap = m_button_to_map_trap[button];
             bool isBuyable = m_environmentStore.buyEnvironmentPerk(mapTrap);
-            Debug.Log("onClickPlus ES" + " " + gameObject.name + " ; " + mapTrap.Id + " ; " + mapTrap + " is buyable:" + isBuyable);
-        }
-
-        public void onClickMoins()
-        {
-            Debug.Log("onClickMoins ES");
+            
+            Button b = Instantiate(InventoryButtonPrefab,InventoryButtonPrefab.transform.parent);
+            b.image.sprite = button.image.sprite;
+            b.gameObject.SetActive(true);
         }
 
         public void onReadyButtonClick()

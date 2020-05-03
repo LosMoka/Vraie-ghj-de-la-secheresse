@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Model;
 using ModelToView;
+using UnityEngine.SceneManagement;
 
 public class PlayerStoreView : MonoBehaviour
 {
@@ -96,6 +97,6 @@ public class PlayerStoreView : MonoBehaviour
     }
     public void next()
     {
-
+        SceneManager.LoadScene("Scene2_Environment");
     }
 }

@@ -165,6 +165,7 @@ public class FavServerView : MonoBehaviour
     {
         if (m_currentServer == null)
             return;
+        gameManager.createPlayer(0);
         gameManager.connectToServer(m_currentServer.getIP(), Convert.ToInt32(m_currentServer.getPortTCP()),Convert.ToInt32(m_currentServer.getPortUDP()),"PlayerStore");
     }
     public void OnClickHost()

@@ -1,5 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Model;
+using ModelToView;
+using Network;
 using UnityEngine;
 
 
@@ -10,7 +13,7 @@ public class Magician : MonoBehaviour
     public float jumpForce;
     public Rigidbody2D rigidBody;
     private Vector3 velocity = Vector3.zero;
-    private Model.Player playerBehaviour = new Model.Player(new Vector2(0, 0));
+    private Model.Player playerBehaviour;
     private bool isJumping;
     public bool isGrounded;
     public bool isWallJump;
@@ -32,18 +35,57 @@ public class Magician : MonoBehaviour
 
     public GameObject fireball;
     public GameObject fireAttack;
+    private Client m_client;
+    private ClientUdp m_client_udp;
+    private MapManager m_map_manager;
+    private string map_as_string;
+    public MapLoader mapLoader;
 
     enum direction
     {
+<<<<<<< HEAD
         RIGHTDIR,
         LEFTDIR
     };
 
     private direction playerDirection;
+=======
+        GameObject gameManagerGameObject = GameObject.Find("GameManager");
+
+        if (gameManagerGameObject != null)
+        {
+            GameManager gameManager = gameManagerGameObject.GetComponent<GameManager>();
+
+            m_client = gameManager.Client;
+            m_client_udp = gameManager.ClientUdp;
+            playerBehaviour = gameManager.Player;
+            m_map_manager = gameManager.MapManager;
+
+            map_as_string = null;
+            m_client.addNetworkMessageHandler("MAP", delegate(string data) { map_as_string = data; });
+            m_client.send("GETMAP");
+        }
+        else
+        {
+            Debug.LogError("GameManager not found !");
+            playerBehaviour = new Player(new Vector3(0,0,0));
+            m_map_manager = new MapManager();
+        }
+    }
+>>>>>>> master
 
     // Update is called once per frame 
     void Update()
     {
+<<<<<<< HEAD
+=======
+        if (map_as_string != null)
+        {
+            m_map_manager.loadFromString(map_as_string);
+            mapLoader.loadMap(m_map_manager);
+            map_as_string = null;
+        }
+>>>>>>> master
 
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime * 100;
         velocity.x = horizontalMovement;

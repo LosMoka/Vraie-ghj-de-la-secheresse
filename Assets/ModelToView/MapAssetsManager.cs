@@ -72,6 +72,13 @@ namespace ModelToView
                 return m_name_to_id_map_trap[name];
             return null;
         }
+        
+        public MapMalus getMapMalusByName(string name)
+        {
+            if (m_name_to_id_map_malus.ContainsKey(name))
+                return m_name_to_id_map_malus[name];
+            return null;
+        }
 
         public GameObject instantiateMapElementView(MapElement mapElement)
         {
@@ -80,7 +87,7 @@ namespace ModelToView
 
             return gameObject;
         }
-        public GameObject instantiateMapElementView(MapTrap mapTrap)
+        public GameObject instantiateMapTrapView(MapTrap mapTrap)
         {
             GameObject gameObject = Instantiate(m_id_to_map_trap_game_object[mapTrap.Id],
                 m_id_to_map_trap_game_object[mapTrap.Id].transform.parent);

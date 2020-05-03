@@ -7,6 +7,7 @@ namespace Model
     {
         public List<MapTrap> MapTraps { get; }
         public List<MapElement> MapElements{ get; }
+        public List<MapMalus> MapMalus{ get; }
         private Environment m_environment;
 
         public EnvironmentStore(Environment environment)
@@ -14,6 +15,7 @@ namespace Model
             m_environment = environment;
             MapTraps = new List<MapTrap>();
             MapElements = new List<MapElement>();
+            MapMalus = new List<MapMalus>();
         }
         
         public enum EnvironmentPerkClass
@@ -44,6 +46,11 @@ namespace Model
         public void devOnlyAddMapTrap(MapTrap mapTrap)
         {
             MapTraps.Add(mapTrap);
+        }
+
+        public void devOnlyAddMapMalus(MapMalus mapMalus)
+        {
+            MapMalus.Add(mapMalus);
         }
     }
 }

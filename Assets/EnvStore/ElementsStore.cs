@@ -14,6 +14,7 @@ namespace Model
         private Environment m_environment;
         private EnvironmentStore m_environmentStore;
         private Dictionary<string, MapElement> m_name_to_id_map_element;
+        private Dictionary<string, MapTrap> m_name_to_id_map_trap;
         public MapAssetsManager mapAssetsManager;
         public Button ElementButtonPrefab, TrapButtonPrefab, InventoryButtonPrefab;
         public Dictionary<Button, MapElement> m_button_to_map_element;
@@ -22,6 +23,7 @@ namespace Model
         void Awake()
         {
             m_name_to_id_map_element = new Dictionary<string, MapElement>();
+            m_name_to_id_map_trap = new Dictionary<string, MapTrap>();
             m_button_to_map_element = new Dictionary<Button, MapElement>();
             m_button_to_map_trap = new Dictionary<Button, MapTrap>();
         }
@@ -48,6 +50,18 @@ namespace Model
             m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TileTerreSprite"));
             m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TilePierreSprite"));
             m_environmentStore.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("TileEauSprite"));
+            m_environmentStore.devOnlyAddMapMalus(mapAssetsManager.getMapMalusByName("TimerSprite"));
+            m_environmentStore.devOnlyAddMapMalus(mapAssetsManager.getMapMalusByName("GlissadeSprite"));
+            m_environmentStore.devOnlyAddMapMalus(mapAssetsManager.getMapMalusByName("NegatifSprite"));
+            m_environmentStore.devOnlyAddMapMalus(mapAssetsManager.getMapMalusByName("NoirBlancSprite"));
+            m_environmentStore.devOnlyAddMapMalus(mapAssetsManager.getMapMalusByName("SlowSprite"));
+            m_environmentStore.devOnlyAddMapMalus(mapAssetsManager.getMapMalusByName("VisionSprite"));
+            m_environmentStore.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("DestructionSprite"));
+            m_environmentStore.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("FenceSprite"));
+            m_environmentStore.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("FireTrapSprite"));
+            m_environmentStore.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("MobTrapSprite"));
+            m_environmentStore.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("TrapSprite"));
+            m_environmentStore.devOnlyAddMapTrap(mapAssetsManager.getMapTrapByName("WindSprite"));
 
             foreach (var mapElement in m_environmentStore.MapElements)
             {
@@ -57,8 +71,18 @@ namespace Model
                 //newButton.GetComponent<RectTransform>().sizeDelta = sprite.rect.size;
                 m_button_to_map_element[newButton] = mapElement;
             }
-            
+
+            foreach (var mapTrap in m_environmentStore.MapTraps)
+            {
+                Sprite sprite = mapAssetsManager.getMapTrapViewPrefab(mapTrap).GetComponent<SpriteRenderer>().sprite;
+                Button newButton = Instantiate(TrapButtonPrefab, TrapButtonPrefab.transform.parent);
+                newButton.image.sprite = sprite;
+                //newButton.GetComponent<RectTransform>().sizeDelta = sprite.rect.size;
+                m_button_to_map_trap[newButton] = mapTrap;
+            }
+
             ElementButtonPrefab.gameObject.SetActive(false);
+            TrapButtonPrefab.gameObject.SetActive(false);
             
         }
 
@@ -73,6 +97,13 @@ namespace Model
             MapElement mapElement = m_button_to_map_element[button];
             bool isBuyable = m_environmentStore.buyEnvironmentPerk(mapElement);
             Debug.Log("onClickPlus ES" + " " + gameObject.name + " ; " + mapElement.Id + " ; " + mapElement+" is buyable:"+isBuyable);
+        }
+
+        public void onClickTrap(Button button)
+        {
+            MapTrap mapTrap = m_button_to_map_trap[button];
+            bool isBuyable = m_environmentStore.buyEnvironmentPerk(mapTrap);
+            Debug.Log("onClickPlus ES" + " " + gameObject.name + " ; " + mapTrap.Id + " ; " + mapTrap + " is buyable:" + isBuyable);
         }
 
         public void onClickMoins()

@@ -36,16 +36,10 @@ public class PlayerStoreView : MonoBehaviour
     public void initializeButtons()
     {
         //mettre les ints en les cherchant dans PlayerStore
-        int attack = m_player_store.AttackPerks.Count;
-        int defense = m_player_store.DefensePerks.Count;
-        int movement = m_player_store.DisplacementPerks.Count;
-        
-        //int attack=2, defense=1, movement=3;
-
-
-
-        //TODO : get si c'est un bucheron ou un pyro
-        bool isBucheron = false;
+        int attack = m_player_store.AttackPerkCount;
+        int defense = m_player_store.DefensePerkCount;
+        int movement = m_player_store.DisplacementPerkCount;
+        bool isBucheron = m_player_store.BucheronOuMagicien;
 
         Bucheron.SetActive(isBucheron);
         Pyro.SetActive(!isBucheron);

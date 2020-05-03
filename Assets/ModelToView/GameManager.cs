@@ -73,5 +73,21 @@ namespace ModelToView
             environmentInstance = new Model.Environment(10000);
             EnvironmentStore = new EnvironmentStore(environmentInstance);
         }
+
+        public void createPlayer(int playerType)
+        {
+            if (playerType == 0)
+            {
+                //Magicien
+                Player = new Player(new Vector3(0,0,0));
+                PlayerStore = new PlayerStore(Player);
+            }
+            else
+            {
+                //Bûcheron
+                Player = new Player(new Vector3(0,0,0));
+                PlayerStore = new PlayerStore(Player);
+            }
+        }
     }
 }

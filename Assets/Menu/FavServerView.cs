@@ -20,7 +20,7 @@ public class FavServerView : MonoBehaviour
     private ButtonServerView m_currentServer;
     private ServerSearcher m_server_searcher;
 
-    public Button JoinButton;
+    public Button JoinButton, HostButton;
 
     private char sep = '~';
 
@@ -145,6 +145,7 @@ public class FavServerView : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(NameIF.gameObject, null);
         NameIF.OnPointerClick(new PointerEventData(EventSystem.current));
         JoinButton.interactable = false;
+        HostButton.interactable = false;
     }
     public void OnClickBackEditMode()
     {
@@ -158,6 +159,7 @@ public class FavServerView : MonoBehaviour
         m_currentServer = getServerByInfos(name, ip, port, "");
         refreshInfos();
         JoinButton.interactable = true;
+        HostButton.interactable = true;
     }
     public void OnClickJoin()
     {

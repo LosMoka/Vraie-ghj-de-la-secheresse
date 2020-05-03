@@ -73,7 +73,7 @@ public class MapManager
     {
         string[] map = str.Split('\n');
         string[] splitedMapElement = map[0].Split(' ');
-        string[] splitedMapTrap = map[0].Split(' ');
+        string[] splitedMapTrap = map[1].Split(' ');
 
         MapElements.Clear();
         MapTraps.Clear();

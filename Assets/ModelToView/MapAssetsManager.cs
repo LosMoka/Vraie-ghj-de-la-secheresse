@@ -12,6 +12,7 @@ namespace ModelToView
         private Dictionary<string, MapElement> m_name_to_id_map_element;
         private Dictionary<string, MapTrap> m_name_to_id_map_trap;
         public List<MapElementView> mapElementViewPrefabs;
+        public List<MapTrapView> mapTrapViewPrefabs;
         public EnvLevelEditorView envLevelEditorView;
 
         void Awake()
@@ -28,6 +29,10 @@ namespace ModelToView
             foreach (var mapElementViewPrefab in mapElementViewPrefabs)
             {
                 registerMapElementViewPrefab(mapElementViewPrefab);
+            }
+            foreach(var mapTrapViewPrefab in mapTrapViewPrefabs)
+            {
+                registerMapTrapViewPrefab(mapTrapViewPrefab);
             }
             envLevelEditorView.build();
         }

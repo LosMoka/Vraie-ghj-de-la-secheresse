@@ -92,6 +92,12 @@ public class MapManager
         }
     }
 
+    public bool isTrapHere(Point2i i)
+    {
+        if (MapTraps.ContainsKey(i.ToString()))
+            return (true);
+        return (false);
+	}
     public void removeMapElement(Vector3Int vec)
     {
         Point2i point = new Point2i((int)vec.x,(int)vec.y);

@@ -36,11 +36,13 @@ namespace ModelToView
         {
             m_id_to_map_element_game_object[mapElementView.mapElement.Id] = mapElementView.gameObject;
             m_name_to_id_map_element[mapElementView.gameObject.name] = mapElementView.mapElement;
+            MapManager.registerMapElement(mapElementView.mapElement);
         }
         public void registerMapTrapViewPrefab(MapTrapView mapTrapView)
         {
             m_id_to_map_trap_game_object[mapTrapView.mapTrap.Id] = mapTrapView.gameObject;
             m_name_to_id_map_trap[mapTrapView.gameObject.name] = mapTrapView.mapTrap;
+            MapManager.registerMapTrap(mapTrapView.mapTrap);
         }
 
         public MapElement getMapElementByName(string name)

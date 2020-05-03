@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using Model;
 using ModelToView;
+using Network;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 
@@ -20,6 +22,7 @@ namespace EnvLevelEditor
         private MapElement m_selected_map_element;
         private MapTrap m_selected_map_trap;
         public MapLoader mapLoader;
+        private Client m_client;
 
         // Start is called before the first frame update
         void Start()
@@ -37,12 +40,14 @@ namespace EnvLevelEditor
                 m_environment.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("GrassPrefab"));
                 m_environment.devOnlyAddMapElement(mapAssetsManager.getMapElementByName("RockPrefab"));
                 //TODO </a remove>
+                m_client = null;
             }
             else
             {
                 GameManager gameManager = gameManagerGameObject.GetComponent<GameManager>();
                 m_map_manager = gameManager.MapManager;
                 m_environment = gameManager.environmentInstance;
+                m_client = gameManager.Client;
             }
             
             m_button_to_map_element = new Dictionary<Button, MapElement>();
@@ -94,6 +99,20 @@ namespace EnvLevelEditor
                     m_map_manager.setMapTrap(position,m_selected_map_trap);
                 mapLoader.loadMap(m_map_manager);
             }
+        }
+
+        public void OnReadyButtonClick()
+        {
+            if (m_client != null)
+            {
+                string str = m_map_manager.saveToString();
+                m_client.send("MAP "+str);
+            }
+            else
+            {
+                Debug.Log("No client !");
+            }
+            SceneManager.LoadScene("EnvPhase1");
         }
         
     }

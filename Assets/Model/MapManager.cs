@@ -91,4 +91,11 @@ public class MapManager
             MapTraps[pos] = m_id_to_map_traps[id];
         }
     }
+
+    public bool isTrapHere(Point2i i)
+    {
+        if (MapTraps.ContainsKey(i.ToString()))
+            return (true);
+        return (false);
+    }
 }

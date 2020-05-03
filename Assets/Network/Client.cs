@@ -126,8 +126,6 @@ namespace Network
                         //TODO : trouver pourquoi ça fait ça
                     }
 
-                    if (dataRecieve == m_last_msg_recieved && dataRecieve != "NT")
-                        continue;
                     m_last_msg_recieved = dataRecieve;
 
                     try

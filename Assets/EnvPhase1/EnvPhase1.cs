@@ -31,10 +31,11 @@ public class EnvPhase1 : MonoBehaviour
             m_map_manager = gameManager.MapManager;
             m_client = gameManager.Client;
             
-            m_client.addNetworkMessageHandler("MAP ", delegate(string data)
+            m_client.addNetworkMessageHandler("MAP", delegate(string data)
             {
                 m_map_as_string = data;
             });
+            m_client.send("GETMAP");
         }
         
         mapLoader.mapAssetsManager = GameObject.Find("MapAssetManager").GetComponent<MapAssetsManager>();

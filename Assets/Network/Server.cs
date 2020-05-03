@@ -20,6 +20,8 @@ namespace Network
         private UdpClient m_udp_client;
         private ValueWrapper<bool> m_is_running;
         private string m_separator_token;
+        private List<Thread> m_client_read_threads;
+        private string map_as_string;
 
         public Server(ValueWrapper<bool> isRunning, int port)
         {
@@ -35,6 +37,7 @@ namespace Network
             
             m_udp_thread = new Thread(udpServerThread);
             m_accept_client_thread = new Thread(acceptClientThreadFunction);
+            m_client_read_threads = new List<Thread>();
             m_udp_thread.Start();
             m_accept_client_thread.Start();
             m_tcp_listener.Start();
@@ -81,6 +84,49 @@ namespace Network
                 m_tcp_clients.Add(client);
                 Debug.Log("new client nbClient="+nbClient);
                 sendTo(nbClient, "GIP "+nbClient);
+                Thread thread = new Thread(delegate()
+                {
+                    while (m_is_running)
+                    {
+                        var stream = client.GetStream();
+
+                        byte[] bytes = new byte[4096];
+                        int bytesRead = stream.Read(bytes, 0, bytes.Length);
+
+                        string dataRecieve = Encoding.UTF8.GetString(bytes);
+
+
+                        while (dataRecieve.Contains(m_separator_token))
+                        {
+                            string[] sDataRecieve = dataRecieve.Split(new[] {m_separator_token},
+                                StringSplitOptions.RemoveEmptyEntries);
+
+
+                            string[] data = sDataRecieve[0].Split(' ');
+
+                            if (data[0] == "MAP")
+                            {
+                                map_as_string = "";
+                                for (int i = 1; i < data.Length; i++)
+                                {
+                                    map_as_string += data[i] + " ";
+                                }
+                            }
+                            else if (data[0] == "GETMAP")
+                            {
+                                byte[] buffer =
+                                    System.Text.Encoding.UTF8.GetBytes("MAP " + map_as_string + m_separator_token);
+                                stream.Write(buffer, 0, buffer.Length);
+                            }
+
+                            dataRecieve = "";
+                            for (int i = 1; i < sDataRecieve.Length; i++)
+                                dataRecieve += sDataRecieve[i] + m_separator_token;
+                        }
+                    }
+                });
+                m_client_read_threads.Add(thread);
+                thread.Start();
                 m_tcp_clients_mutex.ReleaseMutex();
                 nbClient++;
             }

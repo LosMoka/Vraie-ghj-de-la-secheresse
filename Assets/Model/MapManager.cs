@@ -81,12 +81,16 @@ public class MapManager
         for (int i = 0; 2 * i + 1 < splitedMapElement.Length; i++)
         {
             string pos = splitedMapElement[2 * i];
+            if(pos=="")
+                continue;
             int id = Convert.ToInt32(splitedMapElement[2 * i + 1]);
             MapElements[pos] = m_id_to_map_elements[id];
         }
         for (int i = 0; 2 * i + 1 < splitedMapTrap.Length; i++)
         {
             string pos = splitedMapTrap[2 * i];
+            if(pos=="")
+                continue;
             int id = Convert.ToInt32(splitedMapTrap[2 * i + 1]);
             MapTraps[pos] = m_id_to_map_traps[id];
         }

@@ -12,7 +12,7 @@ public class Magician : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private Model.Player playerBehaviour = new Model.Player(new Vector2(0, 0));
     private bool isJumping;
-    private bool isGrounded;
+    public bool isGrounded;
     public bool isWallJump;
     public Animator animator;
     public Transform groundCheck;
@@ -27,27 +27,31 @@ public class Magician : MonoBehaviour
     private bool isFireballReady = true;
     private bool isFireAttackReady = true;
 
-
+    private bool isWallJumpDelay = true;
     private bool isInvicible;
 
     public GameObject fireball;
     public GameObject fireAttack;
 
-    // Start is called before the first frame update 
-    void Start()
+    enum direction
     {
+        RIGHTDIR,
+        LEFTDIR
+    };
 
-    }
+    private direction playerDirection;
 
     // Update is called once per frame 
     void Update()
     {
-        
 
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime * 100;
         velocity.x = horizontalMovement;
         velocity.y = rigidBody.velocity.y;
 
+        if (horizontalMovement >= 0)
+            playerDirection = direction.RIGHTDIR;
+        else playerDirection = direction.LEFTDIR;
 
         if (Input.GetButtonDown("Jump") && isGrounded)
             isJumping = true;
@@ -59,16 +63,24 @@ public class Magician : MonoBehaviour
         }
 
         if (isWallJump && Input.GetButtonDown("Jump") && !isGrounded)
-        {           
-            rigidBody.AddRelativeForce(new Vector2(-1000f, jumpForce));        
+        {
+            wallJump();            
+        }
+
+        if (!isWallJumpDelay)
+        {
+            if (playerDirection == direction.LEFTDIR)
+                rigidBody.AddRelativeForce(new Vector2(+Time.deltaTime * 500 * 50, 0));
+
+            else if (playerDirection == direction.RIGHTDIR)
+                rigidBody.AddRelativeForce(new Vector2(-Time.deltaTime * 500 * 50, 0));
         }
 
         if (Input.GetButtonDown("Fire1") && isFireballReady)
         {
             isFireballReady = false;
             animator.SetBool("ThrowFireBall", true);
-            StartCoroutine(fireballDelay());
-            
+            StartCoroutine(fireballDelay());     
         }
 
         if (Input.GetButtonDown("Fire2") && isFireAttackReady)
@@ -76,7 +88,6 @@ public class Magician : MonoBehaviour
             isFireAttackReady = false;
             animator.SetBool("ThrowFireBall", true);
             StartCoroutine(fireAttackDelay());
-
         }
 
         playerBehaviour.movePlayer(velocity);
@@ -105,6 +116,17 @@ public class Magician : MonoBehaviour
         }
     }
 
+    public void wallJump()
+    {
+        isWallJumpDelay = false;
+        StartCoroutine(WallJumpDelay());
+
+        if (playerDirection == direction.LEFTDIR)
+            rigidBody.AddRelativeForce(new Vector2(0f, 250));
+
+        else if (playerDirection == direction.RIGHTDIR)
+            rigidBody.AddRelativeForce(new Vector2(0f, 250));
+    }
     public void throwFireAttack()
     {
         Instantiate(fireAttack, this.transform);
@@ -155,6 +177,11 @@ public class Magician : MonoBehaviour
         isInvicible = false;
     }
 
+    public IEnumerator WallJumpDelay()
+    {
+        yield return new WaitForSeconds(0.1f);
+        isWallJumpDelay = true;
+    }
     public IEnumerator fireballDelay()
     {  
         yield return new WaitForSeconds(0.3f);

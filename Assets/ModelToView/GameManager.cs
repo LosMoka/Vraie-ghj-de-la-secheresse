@@ -12,9 +12,9 @@ namespace ModelToView
 {
     public class GameManager : MonoBehaviour
     {
-        private Client m_client;
+        public Client Client { get; private set; }
         private Server m_server;
-        private ClientUdp m_client_udp;
+        public ClientUdp ClientUdp { get; private set; }
         private ValueWrapper<bool> m_is_running;
         private MapManager m_map_manager;
 
@@ -26,6 +26,7 @@ namespace ModelToView
         public ButtonServerView ButtonServerView { get; set; }
 
         public Model.Environment environmentInstance { get; }
+        public MapManager MapManager { get; }
 
         public void Awake()
         {
@@ -48,14 +49,14 @@ namespace ModelToView
 
         public void connectToServer(string ip, int portTCp, int portUDP, string nextSceneToLoad)
         {
-            m_client = new Client(m_is_running,ip,portTCp,portUDP);
-            m_client_udp = new ClientUdp(m_is_running,portUDP,m_client, ip, portTCp, delegate
+            Client = new Client(m_is_running,ip,portTCp,portUDP);
+            ClientUdp = new ClientUdp(m_is_running,portUDP,Client, ip, portTCp, delegate
             {
                 m_exec_on_main_thread_delegate_mutex.WaitOne();
                 m_exec_on_main_thread_delegates.Enqueue(() => { SceneManager.LoadScene(nextSceneToLoad); });
                 m_exec_on_main_thread_delegate_mutex.ReleaseMutex();
             });
-            m_client.connect();
+            Client.connect();
             Debug.Log("connect with ip="+ip+" port TCP="+portTCp+" port Udp="+portUDP);
         }
 

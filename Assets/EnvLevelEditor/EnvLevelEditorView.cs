@@ -57,7 +57,7 @@ namespace EnvLevelEditor
                 Sprite sprite = mapAssetsManager.getMapElementViewPrefab(mapElement).GetComponent<SpriteRenderer>().sprite;
                 Button newButton = Instantiate(buttonPrefab, buttonPrefab.transform.parent);
                 newButton.image.sprite = sprite;
-                newButton.GetComponent<RectTransform>().sizeDelta = sprite.rect.size;
+                //newButton.GetComponent<RectTransform>().sizeDelta = sprite.rect.size;
                 m_button_to_map_element[newButton] = mapElement;
             }
             buttonPrefab.gameObject.SetActive(false);
